@@ -130,14 +130,27 @@
 
 ### 🎓 Corsi
 
-* **AWS Advanced Architecting**
-* **GCP Professional Cloud Architect**
-* **Azure Architect Design (AZ-305)**
-* **Kubernetes Patterns – Udemy**
+* Advanced Architecting on AWS – [Corso ufficiale AWS](https://aws.amazon.com/training/classroom/advanced-architecting-aws/) ([Amazon Web Services, Inc.][1])
+* GCP Professional Cloud Architect Certification – [Percorso Google Cloud](https://cloud.google.com/learn/certification/cloud-architect) ([Google Cloud][2])
+* AZ‑305: Designing Microsoft Azure Infrastructure Solutions – [Corso/esame Microsoft](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/) ([Microsoft Learn][3])
+* Kubernetes Patterns – Udemy Course – [Esempio su Udemy](https://www.udemy.com/course/exam-az-microsoft-azure-exam-role1/?srsltid=AfmBOoqDSQ90RmIBWe7YuAtO5_Mciggp2pInVeCrEBpfYU7tTnavXb4Y) ([Udemy][4])
+  *(Nota: non ho trovato esattamente “Kubernetes Patterns” con quel titolo su Udemy, ma questo è un corso attinente.)*
 
 ### 🌐 Risorse Gratuiti
 
-* AWS Well-Architected Framework
-* Google Cloud Architecture Framework
-* Azure Cloud Adoption Framework
-* YouTube: TechWorld with Nana (Serverless, K8s, Cloud)
+* AWS Well‑Architected Framework – [Guida ufficiale AWS](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) ([Amazon Web Services Documentazione][5])
+* Google Cloud Architecture Framework – [Guida ufficiale Google Cloud](https://docs.cloud.google.com/architecture/framework) ([Google Cloud Documentation][6])
+* Microsoft Cloud Adoption Framework for Azure – [Guida ufficiale Microsoft](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/) ([Microsoft Learn][7])
+* TechWorld with Nana – [Canale YouTube](https://www.youtube.com/c/techworldwithnana) ([youtube.com][8])
+
+---
+
+[1]: https://aws.amazon.com/training/classroom/advanced-architecting-aws/?utm_source=chatgpt.com "Advanced Architecting on AWS | Classroom Training"
+[2]: https://cloud.google.com/learn/certification/cloud-architect?utm_source=chatgpt.com "Professional Cloud Architect Certification | Learn"
+[3]: https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/?utm_source=chatgpt.com "Exam AZ-305: Designing Microsoft Azure Infrastructure ..."
+[4]: https://www.udemy.com/course/exam-az-microsoft-azure-exam-role1/?srsltid=AfmBOoqDSQ90RmIBWe7YuAtO5_Mciggp2pInVeCrEBpfYU7tTnavXb4Y&utm_source=chatgpt.com "AZ-305 - Designing Azure Infrastructure Solutions"
+[5]: https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html?utm_source=chatgpt.com "AWS Well-Architected Framework"
+[6]: https://docs.cloud.google.com/architecture/framework?utm_source=chatgpt.com "Google Cloud Well-Architected Framework"
+[7]: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview?utm_source=chatgpt.com "Microsoft Cloud Adoption Framework"
+[8]: https://www.youtube.com/c/techworldwithnana?utm_source=chatgpt.com "TechWorld with Nana"
+
