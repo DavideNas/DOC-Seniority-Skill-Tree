@@ -9,7 +9,7 @@
 - [Java](SkillTrees/Java.md) ☕
 - [PHP](SkillTrees/PHP.md) 🐘
 - [JavaScript](SkillTrees/Javascript.md) ⚡
-- [TypeScript](SkillTrees/TypeScript.md) ⚡
+- [TypeScript](SkillTrees/TypeScript.md) 💠
 
 ---
 
