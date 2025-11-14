@@ -52,6 +52,8 @@
 - [Microservices-Developer](SkillTrees/MicroservicesDev.md) 🏗️
 - [Design Patterns](SkillTrees/DesignPatterns.md) 📐
 - [Architectural Patterns](SkillTrees/ArchitecturalPatterns.md) 🏛️
+- [Cloud Patterns](SkillTrees/CloudPatterns.md)
+  - [Tools For Cloud Patterns](SkillTrees/ToolsForCloudPatterns.md)
 
 ---
 
