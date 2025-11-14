@@ -1,10 +1,10 @@
-# ☁️ **Cloud Patterns – Skill Tree (Organizzato per Tool / Technology)**
+## ☁️ **Cloud Patterns – Skill Tree (Organizzato per Tool / Technology)**
 
 Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabelle uniformi e sezioni consolidate.
 
 ---
 
-# 🔵 **1. API Gateway & Edge Patterns**
+### 🔵 **1. API Gateway & Edge Patterns**
 
 *Tool:* API Gateway, Reverse Proxy, Load Balancer, WAF
 *Icona:* 🌐
@@ -22,7 +22,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# ⚡ **2. Function-as-a-Service (FaaS) & Serverless Patterns**
+### ⚡ **2. Function-as-a-Service (FaaS) & Serverless Patterns**
 
 *Tool:* Lambda, Cloud Functions, Azure Functions
 *Icona:* ⚡
@@ -37,12 +37,12 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 📨 **3. Message Broker & Event Bus Patterns**
+## 📨 **3. Message Broker & Event Bus Patterns**
 
 *Tool:* Kafka, RabbitMQ, ActiveMQ, NATS, SQS/SNS, Pub/Sub, EventBridge, EventGrid
 *Icona:* 📨
 
-### **Core Messaging**
+#### **Core Messaging**
 
 | Pattern                          | Descrizione                              |
 | -------------------------------- | ---------------------------------------- |
@@ -54,7 +54,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 | 🗃️ **Dead Letter Queue**        | Messaggi falliti.                        |
 | 🚚 **Sequential Convoy**         | Ordine garantito per messaggi correlati. |
 
-### **Event-Driven Architecture**
+#### **Event-Driven Architecture**
 
 | Pattern                             | Descrizione                          |
 | ----------------------------------- | ------------------------------------ |
@@ -67,7 +67,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 🕹️ **4. Workflow Engine & Orchestration Patterns**
+#### 🕹️ **4. Workflow Engine & Orchestration Patterns**
 
 *Tool:* Step Functions, Temporal, Logic Apps, Durable Functions
 *Icona:* 🕹️
@@ -83,7 +83,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 🏗️ **5. Background Worker / Compute Patterns**
+### 🏗️ **5. Background Worker / Compute Patterns**
 
 *Tool:* Worker Services, Cron, ECS, K8s Jobs, Cloud Tasks
 *Icona:* 🏗️
@@ -98,7 +98,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 🕸️ **6. Service Mesh & Networking Patterns**
+### 🕸️ **6. Service Mesh & Networking Patterns**
 
 *Tool:* Istio, Linkerd, Envoy
 *Icona:* 🕸️
@@ -112,7 +112,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 🗄️ **7. Storage, Cache & Data Access Patterns**
+### 🗄️ **7. Storage, Cache & Data Access Patterns**
 
 *Tool:* Redis, DynamoDB, CosmosDB, RDS, BigTable, S3
 *Icona:* 🗄️
@@ -127,7 +127,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 🔐 **8. Identity, Security & Access Patterns**
+### 🔐 **8. Identity, Security & Access Patterns**
 
 *Tool:* OAuth2, OIDC, Cognito, AD, STS
 *Icona:* 🔐
@@ -141,7 +141,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 🧬 **9. Modernizzazione & Migration Patterns**
+### 🧬 **9. Modernizzazione & Migration Patterns**
 
 *Tool:* Proxy, Blue/Green, Canary
 *Icona:* 🧬
@@ -154,7 +154,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 🗺️ **10. Roadmap Consigliata**
+## 🗺️ **10. Roadmap Consigliata**
 
 1. 🌐 API Gateway
 2. ⚡ Serverless / FaaS
@@ -166,39 +166,39 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-# 📚 **11. Risorse Essenziali (Cloud Patterns & EDA)**
+## 📚 **11. Risorse Essenziali (Cloud Patterns & EDA)**
 
 ---
 
-## 🎓 **Corsi Online Core**
+### 🎓 **Corsi Online Core**
 
-### ☁️ **AWS**
+#### ☁️ **AWS**
 
 * **AWS Serverless Developer / Architect Learning Plan**
   [https://explore.skillbuilder.aws/learn/paths](https://explore.skillbuilder.aws/learn/paths)
 * **AWS Event-Driven Architectures Workshop**
   [https://serverlessland.com/eda](https://serverlessland.com/eda)
 
-### ☁️ **Google Cloud**
+#### ☁️ **Google Cloud**
 
 * **Professional Cloud Architect (Focus Event-Driven / Pub/Sub)**
   [https://cloud.google.com/learn/certification/cloud-architect](https://cloud.google.com/learn/certification/cloud-architect)
 * **Google Cloud Pub/Sub Deep Dive**
   [https://cloud.google.com/pubsub/docs](https://cloud.google.com/pubsub/docs)
 
-### ☁️ **Microsoft Azure**
+#### ☁️ **Microsoft Azure**
 
 * **Azure Durable Functions Course**
   [https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview)
 
-### 🕸️ **Kubernetes**
+#### 🕸️ **Kubernetes**
 
 * **Kubernetes Patterns – Udemy**
   [https://www.udemy.com/course/kubernetes-patterns-and-advanced-deployment-techniques/](https://www.udemy.com/course/kubernetes-patterns-and-advanced-deployment-techniques/)
 
 ---
 
-## 📘 **Libri Fondamentali (Core Reading)**
+### 📘 **Libri Fondamentali (Core Reading)**
 
 * **Cloud Native Patterns** – Cornelia Davis
   [https://www.manning.com/books/cloud-native-patterns](https://www.manning.com/books/cloud-native-patterns)
@@ -209,7 +209,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-## 🌐 **Risorse Ufficiali & Documentazione**
+### 🌐 **Risorse Ufficiali & Documentazione**
 
 * **AWS Serverless Land** – pattern ed esempi: [https://serverlessland.com/](https://serverlessland.com/)
 * **GCP Architecture & Event-Driven Patterns**: [https://cloud.google.com/architecture](https://cloud.google.com/architecture)
@@ -217,7 +217,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-## 📨 **Messaging & Event Bus – Risorse Core**
+### 📨 **Messaging & Event Bus – Risorse Core**
 
 * **Kafka – Confluent Developer Learning Path**: [https://developer.confluent.io/learn/](https://developer.confluent.io/learn/)
 * **RabbitMQ Tutorials (ufficiali)**: [https://www.rabbitmq.com/getstarted.html](https://www.rabbitmq.com/getstarted.html)
@@ -225,7 +225,7 @@ Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabell
 
 ---
 
-## 🧪 **Hands-on Labs Essenziali**
+### 🧪 **Hands-on Labs Essenziali**
 
 * **AWS Workshops (Serverless / EDA)**: [https://workshops.aws](https://workshops.aws)
 * **Google Cloud Skills Boost**: [https://www.cloudskillsboost.google/](https://www.cloudskillsboost.google/)
