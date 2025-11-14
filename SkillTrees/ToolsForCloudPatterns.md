@@ -166,17 +166,6 @@
 6. 🕸️ **Service Mesh**
 7. 🧬 **Modernizzazione (Strangler + ACL)**
 
-
-Perfetto — ho letto la tua skill tree su GitHub e ora **aggiungo tutte le parti mancanti**, includendo:
-
-✅ **Corsi consigliati**
-✅ **Libri essenziali**
-✅ **Risorse gratuite ufficiali**
-✅ **Documentazione e blog tecnici**
-✅ **Video YouTube / playlist formative**
-
-Tutto **in stile coerente** con il documento.
-
 ---
 
 # 📚 **11. Risorse, Libri & Corsi Consigliati**
