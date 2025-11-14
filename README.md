@@ -71,6 +71,7 @@
 - [Cloud Engineer](SkillTrees/CloudEngineer.md) ☁️
 - [AWS](SkillTrees/AWS.md) 🔶
 - [GCP](SkillTrees/GCP.md) 🔴
+  - [GCPPubSub](SkillTrees/GCPPubSub.md)
 - [Azure](SkillTrees/Azure.md) 🔷
 
 ---
