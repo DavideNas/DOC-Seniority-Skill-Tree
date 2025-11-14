@@ -1,369 +1,232 @@
 # ☁️ **Cloud Patterns – Skill Tree (Organizzato per Tool / Technology)**
 
-### 🎯 *Roadmap strutturata per imparare pattern cloud moderni, raggruppati per tecnologia usata*
+Una roadmap dei principali pattern cloud, organizzata per tecnologia, con tabelle uniformi e sezioni consolidate.
 
 ---
 
 # 🔵 **1. API Gateway & Edge Patterns**
 
-*Tool: API Gateway, Reverse Proxy, Load Balancer, WAF*
-**Icona:** 🌐
+*Tool:* API Gateway, Reverse Proxy, Load Balancer, WAF
+*Icona:* 🌐
 
-| Pattern                           | Descrizione                                                |
-| --------------------------------- | ---------------------------------------------------------- |
-| **🌐 Gatekeeper**                 | Protezione, validazioni e controlli all’ingresso.          |
-| **🔀 Gateway Routing**            | Smista traffico verso servizi in base a path, host, rules. |
-| **🧩 Gateway Aggregation**        | Aggrega risposte da più servizi.                           |
-| **⚙️ Gateway Offloading**         | Auth, throttling, caching, transformation sul gateway.     |
-| **📱 Backend for Frontend (BFF)** | API layer dedicato a un singolo frontend.                  |
-| **🌿 Strangler Fig**              | Migrazione progressiva tramite routing selettivo.          |
-| **🚦 Throttling**                 | Limitazione del traffico per proteggere i backend.         |
-| **🔑 Valet Key**                  | Accesso sicuro via presigned URL / SAS token.              |
-
----
-
-# 🟢 **2. Function-as-a-Service (FaaS) & Serverless Patterns**
-
-*Tool: AWS Lambda, GCP Cloud Functions, Azure Functions*
-**Icona:** ⚡
-
-| Pattern                  | Descrizione                                |
-| ------------------------ | ------------------------------------------ |
-| **⛓️ Function Chaining** | Esecuzione sequenziale di funzioni.        |
-| **🕸️ Fan-Out / Fan-In** | Parallelismo massivo + raccolta risultati. |
-| **📨 Async HTTP API**    | API asincrone con callback o eventi.       |
-| **🙋 Human Interaction** | Step manuali nei workflow.                 |
-| **🩺 Monitor Function**  | Funzioni schedulate di controllo/sonda.    |
+| Pattern                           | Descrizione                                          |
+| --------------------------------- | ---------------------------------------------------- |
+| 🌐 **Gatekeeper**                 | Validazioni, controlli e protezione all’ingresso.    |
+| 🔀 **Gateway Routing**            | Smistamento del traffico basato su path/host/regole. |
+| 🧩 **Gateway Aggregation**        | Aggregazione di risposte da più servizi.             |
+| ⚙️ **Gateway Offloading**         | Auth, throttling, caching, trasformazioni.           |
+| 📱 **Backend for Frontend (BFF)** | API layer dedicato a uno specifico frontend.         |
+| 🌿 **Strangler Fig**              | Migrazione progressiva tramite routing.              |
+| 🚦 **Throttling**                 | Limitazione del traffico verso backend.              |
+| 🔑 **Valet Key**                  | Accesso sicuro tramite presigned URL/SAS.            |
 
 ---
 
-# 🟣 **3. Message Broker & Event Bus Patterns**
+# ⚡ **2. Function-as-a-Service (FaaS) & Serverless Patterns**
 
-*Tool: Kafka, RabbitMQ, ActiveMQ, IBM MQ, NATS, SQS, SNS, Pub/Sub, EventBridge, EventGrid*
-**Icona:** 📨
+*Tool:* Lambda, Cloud Functions, Azure Functions
+*Icona:* ⚡
 
-### 📨 **Core Messaging Patterns**
-
-| Pattern                          | Descrizione                                   |
-| -------------------------------- | --------------------------------------------- |
-| **📣 Publish / Subscribe**       | Decoupling tramite eventi broadcast.          |
-| **📥 Queue-Based Load Leveling** | Smussamento di picchi tramite coda.           |
-| **⭐ Priority Queue**             | Coda con priorità differenziate.              |
-| **👥 Competing Consumers**       | Consumatori in parallelo per scalare.         |
-| **🔄 Async Request-Reply**       | Comunicazione asincrona con correlation ID.   |
-| **🗃️ Dead Letter Queue (DLQ)**  | Destinazione messaggi falliti.                |
-| **🚚 Sequential Convoy**         | Elaborazione di messaggi correlati in ordine. |
-
-### 🧩 **Event-Driven Architecture Patterns**
-
-| Pattern                               | Descrizione                                  |
-| ------------------------------------- | -------------------------------------------- |
-| **📦 Event Carried State Transfer**   | Stato incluso negli eventi.                  |
-| **📜 Event Sourcing**                 | Eventi immutabili come sorgente dello stato. |
-| **🎭 Saga (Choreography)**            | Transazioni distribuite via eventi.          |
-| **🧱 Saga (Transactional Outbox)**    | Integrazione sicura DB → broker.             |
-| **📤 Outbox**                         | Scrittura atomica DB + evento.               |
-| **↩️ Compensating Event Transaction** | Azioni di correzione tramite eventi.         |
+| Pattern                  | Descrizione                                         |
+| ------------------------ | --------------------------------------------------- |
+| ⛓️ **Function Chaining** | Invocazione sequenziale di funzioni.                |
+| 🕸️ **Fan-Out / Fan-In** | Parallelizzazione massiva + aggregazione risultati. |
+| 📨 **Async HTTP API**    | API asincrone basate su callback/eventi.            |
+| 🙋 **Human Interaction** | Step umani nei workflow.                            |
+| 🩺 **Monitor Function**  | Funzioni schedulate di controllo.                   |
 
 ---
 
-# 🟠 **4. Workflow Engine & Orchestration Patterns**
+# 📨 **3. Message Broker & Event Bus Patterns**
 
-*Tool: Step Functions, Temporal.io, Logic Apps, Durable Functions*
-**Icona:** 🕹️
+*Tool:* Kafka, RabbitMQ, ActiveMQ, NATS, SQS/SNS, Pub/Sub, EventBridge, EventGrid
+*Icona:* 📨
+
+### **Core Messaging**
+
+| Pattern                          | Descrizione                              |
+| -------------------------------- | ---------------------------------------- |
+| 📣 **Publish / Subscribe**       | Decoupling tramite eventi broadcast.     |
+| 📥 **Queue-Based Load Leveling** | Smussamento picchi tramite coda.         |
+| ⭐ **Priority Queue**             | Messaggi con priorità.                   |
+| 👥 **Competing Consumers**       | Consumatori paralleli per scalare.       |
+| 🔄 **Async Request-Reply**       | Comunicazione con correlation ID.        |
+| 🗃️ **Dead Letter Queue**        | Messaggi falliti.                        |
+| 🚚 **Sequential Convoy**         | Ordine garantito per messaggi correlati. |
+
+### **Event-Driven Architecture**
+
+| Pattern                             | Descrizione                          |
+| ----------------------------------- | ------------------------------------ |
+| 📦 **Event Carried State Transfer** | Stato incluso negli eventi.          |
+| 📜 **Event Sourcing**               | Stato derivato da eventi immutabili. |
+| 🎭 **Saga (Choreography)**          | Transazioni distribuite via eventi.  |
+| 🧱 **Transactional Outbox**         | Integrazione sicura DB → broker.     |
+| 📤 **Outbox**                       | Scrittura atomica DB+evento.         |
+| ↩️ **Compensating Event**           | Azioni correttive via eventi.        |
+
+---
+
+# 🕹️ **4. Workflow Engine & Orchestration Patterns**
+
+*Tool:* Step Functions, Temporal, Logic Apps, Durable Functions
+*Icona:* 🕹️
 
 | Pattern                         | Descrizione                          |
 | ------------------------------- | ------------------------------------ |
-| **🕹️ Orchestration**           | Controllo centralizzato del flusso.  |
-| **🎭 Saga (Orchestration)**     | Transazioni distribuite orchestrate. |
-| **↩️ Compensating Transaction** | Azioni di annullamento.              |
-| **🕸️ Fan-Out / Fan-In**        | Parallelismo orchestrato.            |
-| **👁️ Monitor Workflow**        | Workflow di supervisione.            |
-| **🙋 Human Interaction**        | Step manuali integrati.              |
+| 🕹️ **Orchestration**           | Controllo centralizzato del flusso.  |
+| 🎭 **Saga (Orchestration)**     | Transazioni distribuite orchestrate. |
+| ↩️ **Compensating Transaction** | Undo delle operazioni.               |
+| 🕸️ **Fan-Out / Fan-In**        | Parallelismo orchestrato.            |
+| 👁️ **Monitor Workflow**        | Supervisione con workflow dedicato.  |
+| 🙋 **Human Interaction**        | Step manuali.                        |
 
 ---
 
-# 🟡 **5. Background Worker / Compute Patterns**
+# 🏗️ **5. Background Worker / Compute Patterns**
 
-*Tool: Worker Services, Cron, ECS, Kubernetes Jobs, Cloud Tasks*
-**Icona:** 🏗️
+*Tool:* Worker Services, Cron, ECS, K8s Jobs, Cloud Tasks
+*Icona:* 🏗️
 
-| Pattern                               | Descrizione                                    |
-| ------------------------------------- | ---------------------------------------------- |
-| **🔁 Retry**                          | Ritentativi automatici.                        |
-| **📈 Retry with Backoff**             | Backoff esponenziale o jitter.                 |
-| **🧱 Bulkhead**                       | Isolamento risorse per evitare domino failure. |
-| **⚡ Circuit Breaker**                 | Stop temporaneo verso servizi instabili.       |
-| **📥 Queue-Based Worker Consumption** | Worker scalabili basati su coda.               |
-
----
-
-# 🟤 **6. Service Mesh & Networking Patterns**
-
-*Tool: Istio, Linkerd, Envoy*
-**Icona:** 🕸️
-
-| Pattern                            | Descrizione                                   |
-| ---------------------------------- | --------------------------------------------- |
-| **🛰️ Sidecar**                    | Container satellite per osservabilità/policy. |
-| **🤝 Ambassador**                  | Proxy locale per chiamate esterne.            |
-| **🔐 Service-to-Service TLS**      | Comunicazione mTLS end-to-end.                |
-| **⏱️ Mesh Retry/Timeout Policies** | Resilienza configurata lato mesh.             |
+| Pattern                               | Descrizione                    |
+| ------------------------------------- | ------------------------------ |
+| 🔁 **Retry**                          | Ritentativi automatici.        |
+| 📈 **Backoff**                        | Backoff esponenziale o jitter. |
+| 🧱 **Bulkhead**                       | Isolamento risorse.            |
+| ⚡ **Circuit Breaker**                 | Stop verso servizi instabili.  |
+| 📥 **Queue-Based Worker Consumption** | Worker scalabili tramite code. |
 
 ---
 
-# 🟧 **7. Storage, Cache & Data Access Patterns**
+# 🕸️ **6. Service Mesh & Networking Patterns**
 
-*Tool: Redis, DynamoDB, CosmosDB, RDS, BigTable, S3, Blob Storage*
-**Icona:** 🗄️
+*Tool:* Istio, Linkerd, Envoy
+*Icona:* 🕸️
 
-| Pattern                      | Descrizione                                    |
-| ---------------------------- | ---------------------------------------------- |
-| **🧊 Cache-Aside**           | Cache caricata on-demand.                      |
-| **🌍 Geode**                 | Cache distribuita su più region.               |
-| **⚙️ External Config Store** | Configurazioni centralizzate esterne.          |
-| **📦 Claim Check**           | Payload grande su storage + messaggio leggero. |
-| **⚔️ CQRS**                  | Separazione tra write e read model.            |
-
----
-
-# 🟩 **8. Identity, Security & Access Patterns**
-
-*Tool: OAuth2, OIDC, Cognito, AD, STS*
-**Icona:** 🔐
-
-| Pattern                               | Descrizione                                  |
-| ------------------------------------- | -------------------------------------------- |
-| **🌍 Federation Identity**            | Trust tra provider diversi.                  |
-| **🔑 Valet Key**                      | Accesso delegato temporaneo.                 |
-| **🛡️ Gateway Offloading (Security)** | Auth e policy sul gateway.                   |
-| **🌿 Strangler + Auth Migration**     | Migrazione graduale dei sistemi di identità. |
+| Pattern                       | Descrizione                                     |
+| ----------------------------- | ----------------------------------------------- |
+| 🛰️ **Sidecar**               | Container satellite per policy e osservabilità. |
+| 🤝 **Ambassador**             | Proxy per chiamate esterne.                     |
+| 🔐 **Service-to-Service TLS** | mTLS end-to-end.                                |
+| ⏱️ **Retry/Timeout Policies** | Resilienza lato mesh.                           |
 
 ---
 
-# ⚪ **9. Modernizzazione & Migration Patterns**
+# 🗄️ **7. Storage, Cache & Data Access Patterns**
 
-*Tool: API Gateway, Proxies, Blue/Green, Canary*
-**Icona:** 🧬
+*Tool:* Redis, DynamoDB, CosmosDB, RDS, BigTable, S3
+*Icona:* 🗄️
 
-| Pattern                             | Descrizione                                           |
-| ----------------------------------- | ----------------------------------------------------- |
-| **🌿 Strangler Fig**                | Migrazione progressiva di componenti legacy.          |
-| **🛡️ Anti-Corruption Layer (ACL)** | Protezione del dominio applicativo da sistemi legacy. |
-| **📦 Deployment Stamp**             | Ambienti clonati per tenant/region.                   |
-
----
-
-# 🧭 **10. Roadmap Finale (Percorso Consigliato)**
-
-**Icona:** 🗺️
-
-1. 🌐 **API Gateway Patterns**
-2. ⚡ **Serverless / FaaS**
-3. 📨 **Message Brokers & Event Bus**
-4. 🗄️ **Data & Storage Patterns**
-5. 🕹️ **Workflow & Distributed Transactions**
-6. 🕸️ **Service Mesh**
-7. 🧬 **Modernizzazione (Strangler + ACL)**
+| Pattern                      | Descrizione                             |
+| ---------------------------- | --------------------------------------- |
+| 🧊 **Cache-Aside**           | Cache on-demand.                        |
+| 🌍 **Geode**                 | Cache distribuita multi-region.         |
+| ⚙️ **External Config Store** | Config centralizzate.                   |
+| 📦 **Claim Check**           | Payload su storage + messaggio leggero. |
+| ⚔️ **CQRS**                  | Separazione read/write model.           |
 
 ---
 
-# 📚 **11. Risorse, Libri & Corsi Consigliati**
+# 🔐 **8. Identity, Security & Access Patterns**
 
-*(Nuova sezione aggiuntiva basata sulla skill tree GitHub)*
+*Tool:* OAuth2, OIDC, Cognito, AD, STS
+*Icona:* 🔐
+
+| Pattern                             | Descrizione                  |
+| ----------------------------------- | ---------------------------- |
+| 🌍 **Federation Identity**          | Trust tra identity provider. |
+| 🔑 **Valet Key**                    | Accesso delegato temporaneo. |
+| 🛡️ **Gateway Security Offloading** | Auth/Policy lato gateway.    |
+| 🌿 **Strangler + Auth Migration**   | Modernizzazione identità.    |
 
 ---
 
-# 🎓 **Corsi di Formazione (Cloud Patterns & EDA)**
+# 🧬 **9. Modernizzazione & Migration Patterns**
 
-## ☁️ **AWS**
+*Tool:* Proxy, Blue/Green, Canary
+*Icona:* 🧬
 
-* **Advanced Architecting on AWS**
-  [https://aws.amazon.com/training/classroom/advanced-architecting-aws/](https://aws.amazon.com/training/classroom/advanced-architecting-aws/)
+| Pattern                       | Descrizione                         |
+| ----------------------------- | ----------------------------------- |
+| 🌿 **Strangler Fig**          | Migrazione progressiva.             |
+| 🛡️ **Anti-Corruption Layer** | Protezione dal legacy.              |
+| 📦 **Deployment Stamp**       | Ambienti clonati per tenant/region. |
+
+---
+
+# 🗺️ **10. Roadmap Consigliata**
+
+1. 🌐 API Gateway
+2. ⚡ Serverless / FaaS
+3. 📨 Event Bus & Messaging
+4. 🗄️ Storage & Data
+5. 🕹️ Workflow & Transazioni Distribuite
+6. 🕸️ Service Mesh
+7. 🧬 Modernizzazione (Strangler + ACL)
+
+---
+
+# 📚 **11. Risorse Essenziali (Cloud Patterns & EDA)**
+
+---
+
+## 🎓 **Corsi Online Core**
+
+### ☁️ **AWS**
 
 * **AWS Serverless Developer / Architect Learning Plan**
   [https://explore.skillbuilder.aws/learn/paths](https://explore.skillbuilder.aws/learn/paths)
-
-* **AWS Event-Driven Architectures**
+* **AWS Event-Driven Architectures Workshop**
   [https://serverlessland.com/eda](https://serverlessland.com/eda)
 
-* **AWS EDA Workshop**
-  [https://catalog.workshops.aws/eda/en-US](https://catalog.workshops.aws/eda/en-US)
+### ☁️ **Google Cloud**
 
----
-
-## ☁️ **Google Cloud**
-
-* **Professional Cloud Architect Certification**
+* **Professional Cloud Architect (Focus Event-Driven / Pub/Sub)**
   [https://cloud.google.com/learn/certification/cloud-architect](https://cloud.google.com/learn/certification/cloud-architect)
-
 * **Google Cloud Pub/Sub Deep Dive**
   [https://cloud.google.com/pubsub/docs](https://cloud.google.com/pubsub/docs)
 
-* **Google Cloud Eventarc Training**
-  [https://cloud.google.com/eventarc/docs](https://cloud.google.com/eventarc/docs)
-
----
-
-## ☁️ **Microsoft Azure**
-
-* **AZ-305 – Architecting Azure Infrastructure**
-  [https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/)
-
-* **Event-Driven Architectures on Azure**
-  [https://learn.microsoft.com/en-us/azure/architecture/guide/](https://learn.microsoft.com/en-us/azure/architecture/guide/)
+### ☁️ **Microsoft Azure**
 
 * **Azure Durable Functions Course**
   [https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview)
 
----
-
-## 🕸️ **Kubernetes**
+### 🕸️ **Kubernetes**
 
 * **Kubernetes Patterns – Udemy**
   [https://www.udemy.com/course/kubernetes-patterns-and-advanced-deployment-techniques/](https://www.udemy.com/course/kubernetes-patterns-and-advanced-deployment-techniques/)
 
-* **Google Kubernetes Engine (GKE) – Architect Track**
-  [https://cloud.google.com/training/gke](https://cloud.google.com/training/gke)
+---
 
-* **Kubernetes Architecture & Patterns – CNCF**
-  [https://www.cncf.io/training/](https://www.cncf.io/training/)
+## 📘 **Libri Fondamentali (Core Reading)**
+
+* **Cloud Native Patterns** – Cornelia Davis
+  [https://www.manning.com/books/cloud-native-patterns](https://www.manning.com/books/cloud-native-patterns)
+* **Designing Event-Driven Systems** – Ben Stopford
+  [https://www.confluent.io/designing-event-driven-systems/](https://www.confluent.io/designing-event-driven-systems/)
+* **Designing Data-Intensive Applications** – Martin Kleppmann
+  [https://dataintensive.net/](https://dataintensive.net/)
 
 ---
 
-# 📘 **Libri Fondamentali (Cloud Pattern + Event-Driven)**
+## 🌐 **Risorse Ufficiali & Documentazione**
 
-### 📗 *Cloud Native Patterns* – Cornelia Davis
-
-[https://www.manning.com/books/cloud-native-patterns](https://www.manning.com/books/cloud-native-patterns)
-
-### 📘 *Designing Event-Driven Systems* – Ben Stopford (Kafka)
-
-[https://www.confluent.io/designing-event-driven-systems/](https://www.confluent.io/designing-event-driven-systems/)
-
-### 📙 *Building Event-Driven Microservices* – Adam Bellemare
-
-[https://www.oreilly.com/library/view/building-event-driven-microservices/](https://www.oreilly.com/library/view/building-event-driven-microservices/)
-
-### 📕 *Software Architecture: The Hard Parts* – Richards & Ford
-
-[https://www.oreilly.com/library/view/software-architecture-the/](https://www.oreilly.com/library/view/software-architecture-the/)
-
-### 📗 *Designing Data-Intensive Applications* – Martin Kleppmann
-
-[https://dataintensive.net/](https://dataintensive.net/)
-
-### 📚 *Kubernetes Patterns* – Bilgin Ibryam (O’Reilly)
-
-[https://www.oreilly.com/library/view/kubernetes-patterns/](https://www.oreilly.com/library/view/kubernetes-patterns/)
-
-### 📘 *Microservices Patterns* – Chris Richardson
-
-[https://microservices.io/book](https://microservices.io/book)
+* **AWS Serverless Land** – pattern ed esempi: [https://serverlessland.com/](https://serverlessland.com/)
+* **GCP Architecture & Event-Driven Patterns**: [https://cloud.google.com/architecture](https://cloud.google.com/architecture)
+* **Azure Architecture Center**: [https://learn.microsoft.com/en-us/azure/architecture/](https://learn.microsoft.com/en-us/azure/architecture/)
 
 ---
 
-# 🌐 **Risorse Gratuite Ufficiali (Cloud Providers)**
+## 📨 **Messaging & Event Bus – Risorse Core**
 
-## ☁️ AWS
-
-* **AWS Well-Architected Framework**
-  [https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
-
-* **Serverless Land (pattern, esempi, EDA)**
-  [https://serverlessland.com/](https://serverlessland.com/)
-
-* **AWS Prescriptive Guidance**
-  [https://docs.aws.amazon.com/prescriptive-guidance/](https://docs.aws.amazon.com/prescriptive-guidance/)
+* **Kafka – Confluent Developer Learning Path**: [https://developer.confluent.io/learn/](https://developer.confluent.io/learn/)
+* **RabbitMQ Tutorials (ufficiali)**: [https://www.rabbitmq.com/getstarted.html](https://www.rabbitmq.com/getstarted.html)
+* **AWS EventBridge Patterns**: [https://serverlessland.com/eventbridge/patterns](https://serverlessland.com/eventbridge/patterns)
 
 ---
 
-## ☁️ Google Cloud
+## 🧪 **Hands-on Labs Essenziali**
 
-* **Google Cloud Architecture Framework**
-  [https://cloud.google.com/architecture/framework](https://cloud.google.com/architecture/framework)
-
-* **Patterns for Event-Driven Architectures in GCP**
-  [https://cloud.google.com/architecture](https://cloud.google.com/architecture)
-
----
-
-## ☁️ Microsoft Azure
-
-* **Azure Cloud Adoption Framework**
-  [https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/)
-
-* **Azure Architecture Center (pattern, EDA, integration)**
-  [https://learn.microsoft.com/en-us/azure/architecture/](https://learn.microsoft.com/en-us/azure/architecture/)
-
----
-
-# 📨 **Messaging & Event Bus – Risorse Specifiche**
-
-## Apache Kafka
-
-* **Kafka Patterns & Internals**
-  [https://kafka.apache.org/documentation/](https://kafka.apache.org/documentation/)
-
-* **Confluent Developer Learning Path**
-  [https://developer.confluent.io/learn/](https://developer.confluent.io/learn/)
-
----
-
-## RabbitMQ
-
-* **RabbitMQ Tutorials (ufficiali)**
-  [https://www.rabbitmq.com/getstarted.html](https://www.rabbitmq.com/getstarted.html)
-
-* **RabbitMQ Patterns Guide**
-  [https://www.rabbitmq.com/tutorials/](https://www.rabbitmq.com/tutorials/)
-
----
-
-## EventBridge / EventGrid / Pub/Sub
-
-* **AWS EventBridge Patterns Collection**
-  [https://serverlessland.com/eventbridge/patterns](https://serverlessland.com/eventbridge/patterns)
-
-* **Azure EventGrid Concepts & Patterns**
-  [https://learn.microsoft.com/en-us/azure/event-grid/](https://learn.microsoft.com/en-us/azure/event-grid/)
-
-* **GCP Pub/Sub Patterns**
-  [https://cloud.google.com/pubsub/docs](https://cloud.google.com/pubsub/docs)
-
----
-
-# 📺 **YouTube & Video Series**
-
-### 🌐 *TechWorld with Nana*
-
-Serverless, Kubernetes Patterns, EDA
-[https://www.youtube.com/@TechWorldwithNana](https://www.youtube.com/@TechWorldwithNana)
-
-### 📦 *Confluent Kafka Playlist*
-
-[https://www.youtube.com/c/confluent](https://www.youtube.com/c/confluent)
-
-### 🏗️ *Google Cloud – Architecture Framework*
-
-[https://www.youtube.com/@googlecloudplatform](https://www.youtube.com/@googlecloudplatform)
-
-### ☁️ *AWS Events / Serverless Bytes*
-
-[https://www.youtube.com/@AWSEvents](https://www.youtube.com/@AWSEvents)
-
----
-
-# 🧪 **Hands-on Labs e Progetti Guided**
-
-* **AWS Workshops (Serverless, EDA, Patterns)**
-  [https://workshops.aws](https://workshops.aws)
-
-* **Google Cloud Skills Boost**
-  [https://www.cloudskillsboost.google/](https://www.cloudskillsboost.google/)
-
-* **Azure Hands-on Labs**
-  [https://learn.microsoft.com/en-us/training/](https://learn.microsoft.com/en-us/training/)
-
-* **Kubernetes Katacoda Scenarios**
-  [https://www.katacoda.com/courses/kubernetes](https://www.katacoda.com/courses/kubernetes)
+* **AWS Workshops (Serverless / EDA)**: [https://workshops.aws](https://workshops.aws)
+* **Google Cloud Skills Boost**: [https://www.cloudskillsboost.google/](https://www.cloudskillsboost.google/)
+* **Azure Hands-on Labs**: [https://learn.microsoft.com/en-us/training/](https://learn.microsoft.com/en-us/training/)
