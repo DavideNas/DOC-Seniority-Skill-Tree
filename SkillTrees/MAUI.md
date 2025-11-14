@@ -117,12 +117,11 @@
 
 ## 🏁 Sei un **Senior .NET MAUI Developer** se:
 
-✅ Progetti e sviluppi app cross-platform performanti e scalabili
-✅ Conosci a fondo C# e il framework .NET MAUI, inclusi UI, binding e animazioni
-✅ Ottimizzi memoria, performance e caricamento dati
-✅ Gestisci con successo testing avanzato e CI/CD per iOS, Android e Windows
-✅ Hai esperienza nell’integrazione con backend cloud e API
-✅ Guiderai il team con best practices, design pattern e metodologie agili
+1.  **Guida l'Architettura:** Sei il punto di riferimento per le decisioni architetturali, applicando **Design Patterns** avanzati e i **Principi SOLID**.
+2.  **Eccellenza Tecnica:** Progetti e sviluppi app MAUI cross-platform che sono non solo funzionali ma anche performanti, scalabili e sicure.
+3.  **Ottimizzazione Estrema:** Sei in grado di risolvere problemi di **performance complesse** (es. memory leak, rendering bottleneck) tramite profiling avanzato.
+4.  **Maestro del Ciclo di Vita:** Imposti e gestisci l'intero processo di sviluppo, inclusa l'automazione **CI/CD** su tutte le piattaforme target mobile e desktop.
+5.  **Mentore & Quality Gate:** Definisci le **Best Practices** del codice, esegui **Code Reviews** approfondite e garantisci un'ottima copertura di **Unit Test** e **Integration Test**.
 
 ---
 
