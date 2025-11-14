@@ -55,12 +55,16 @@
 
 ---
 
-### Message Brokers
-- [Kafka](SkillTrees/Kafka.md)
-- [RabbitMQ](SkillTrees/RabbitMQ.md)
-- [ActiveMQ](SkillTrees/ActiveMQ.md)
-- [IBMMQ](SkillTrees/IBMMQ.md)
-- [NATS](SkillTrees/NATS.md)
+### 📡 **Message Brokers**
+
+#### *Competenze per lavorare con sistemi di messaggistica, code e eventi distribuiti.*
+
+* [Kafka](SkillTrees/Kafka.md) 🟣
+* [RabbitMQ](SkillTrees/RabbitMQ.md) 🐇
+* [ActiveMQ](SkillTrees/ActiveMQ.md) 🔵
+* [IBMMQ](SkillTrees/IBMMQ.md) 🟤
+* [NATS](SkillTrees/NATS.md) 🟢
+* [Mosquitto](SkillTrees/Mosquitto.md) 🐱
 
 ---
 
@@ -70,9 +74,14 @@
 
 - [Cloud Engineer](SkillTrees/CloudEngineer.md) ☁️
 - [AWS](SkillTrees/AWS.md) 🔶
+  - [AWSSQS](SkillTrees/AWSSQS.md)
+  - [AmazonMQ](SkillTrees/AmazonMQ.md)
 - [GCP](SkillTrees/GCP.md) 🔴
   - [GCPPubSub](SkillTrees/GCPPubSub.md)
 - [Azure](SkillTrees/Azure.md) 🔷
+  - [AzureServiceBus](SkillTrees/AzureServiceBus.md)
+  - [AzureEventHubs](SkillTrees/AzureEventHubs.md)
+  - [AzureEventGrid](SkillTrees/AzureEventGrid.md)
 
 ---
 
