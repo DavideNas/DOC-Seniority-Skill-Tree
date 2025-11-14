@@ -1,121 +1,293 @@
-## 🚀 **Senior .NET MAUI Developer – Skill Stack (2025)**
-
-La riorganizzazione mira a raggruppare le competenze per domini logici (Fondamenta, Interfaccia, Dati/Backend, Processi, Leadership) per una lettura più immediata e strategica.
+## 🏗️ **Senior .NET MAUI Developer – Skill Stack (2025)**
 
 ---
 
-### 1. ⚛️ **Fondamenta Core & Linguaggio**
+### 📱 1. **Fondamenta .NET MAUI**
 
-Questa sezione definisce la padronanza essenziale di C# e dei concetti base che sono il pilastro di qualsiasi applicazione moderna in .NET.
 
-| Area | Dettagli |
-| :--- | :--- |
-| **C# Avanzato** | ✅✅✅ (Variabili, Tipi di dato, Funzioni, Controllo di flusso, **LINQ**, **Delegates**, **Events**) |
-| **Programmazione Orientata agli Oggetti (OOP)** | ✅✅✅ (Classi, Oggetti, Ereditarietà, Polimorfismo, Incapsulamento, **Interfacce**, **Composition over Inheritance**) |
-| **Programmazione Asincrona** | ✅✅✅ (**Task**, **async/await**, **Parallel Programming**, Gestione della concorrenza e dei deadlock) |
-| **Gestione Memoria & Errori** | ✅✅✅ (Garbage Collection, IDisposable, **using statements**, Gestione dei riferimenti, Try/Catch, Exceptions, **Nullable Reference Types**) |
+| Area                        | Dettagli                                                              |
 
----
+| --------------------------- | --------------------------------------------------------------------- |
 
-### 2. 🎨 **User Interface (UI) & Architettura MAUI**
+| C# Basics                   | ✅✅✅ (variabili, tipi di dati, funzioni, controllo di flusso, LINQ) |
 
-Qui si concentra la conoscenza specifica del framework MAUI, del pattern MVVM e della creazione di interfacce utente efficaci e reattive.
+| Object-Oriented Programming | ✅✅✅ (classi, oggetti, ereditarietà, polimorfismo, incapsulamento)  |
 
-| Servizio / Area | Dettagli |
-| :--- | :--- |
-| **XAML & MVVM** | ✅✅✅ (Binding, Data Context, **ICommand**, Visual Tree, **MVVM Pattern** e relative librerie come **Community Toolkit**) |
-| **Controlli & Layout Avanzati** | ✅✅✅ (**StackLayout**, **Grid**, **FlexLayout**, **CollectionView**, **Gestures**, Custom Controls, **Handlers**) |
-| **Navigazione & Shell** | ✅✅✅ (Navigazione gerarchica, modale, **MAUI Shell**, Routing avanzato, Parametri di navigazione) |
-| **Grafica, Animazioni & Template** | ✅✅ (Data Templates, Control Templates, **VisualStateManager**, Animations, Transitions, Integrazione **SkiaSharp**) |
-| **MAUI Essentials & Piattaforma** | ✅✅✅ (**Device Info**, **Connectivity**, **Sensors**, **File System**, Gestione dei permessi specifici della piattaforma) |
+| Memory Management           | ✅✅✅ (garbage collection, gestione dei riferimenti, async/await)    |
+
+| Async Programming           | ✅✅✅ (Task, async/await, Parallel, gestione concorrenza)            |
+
+| Error Handling              | ✅✅✅ (try/catch, exceptions, nullable reference types)              |
+
 
 ---
 
-### 3. 💾 **Dati, Storage & Networking**
 
-Competenze cruciali per gestire la persistenza dei dati a livello locale e l'interazione con servizi esterni tramite rete.
+### ⚙️ 2. **UI & Framework MAUI**
 
-| Area | Dettagli |
-| :--- | :--- |
-| **Database Locale & ORM** | ✅✅✅ (**SQLite**, **Entity Framework Core**, Relazioni, Query avanzate, **Migrazioni**) |
-| **Archiviazione NoSQL & File** | ✅✅ (**Realm** / **LiteDB**, Persistenza locale e sincronizzata, **Preferences**, **Secure Storage**, Gestione Streams) |
-| **HttpClient & REST** | ✅✅✅ (GET/POST/PUT/DELETE, JSON Parsing, Integrazione **REST API**, Gestione Header e Errori HTTP) |
-| **Client API Semplificati** | ✅✅ (**Refit** / **RESTEase**, Gestione centralizzata degli endpoint e delle interfacce di servizio) |
-| **Real-time & Protocolli Avanzati** | ✅✅ (**SignalR** per comunicazione real-time, Conoscenza base di **GraphQL** / **gRPC**) |
 
----
+| Servizio / Area      | Dettagli                                                            |
 
-### 4. 🔐 **Sicurezza & Autenticazione**
+| -------------------- | ------------------------------------------------------------------- |
 
-Focus sulla protezione dell'applicazione e dei dati sensibili, oltre alla gestione dell'identità dell'utente.
+| XAML & MVVM          | ✅✅✅ (binding, data context, ICommand, visual tree, MVVM pattern) |
 
-| Area | Dettagli |
-| :--- | :--- |
-| **Autenticazione & Autorizzazione** | ✅✅✅ (**OAuth 2.0**, **JWT**, Integrazione con provider come **Azure AD B2C** / **IdentityServer**) |
-| **Archiviazione Credenziali** | ✅✅ (**Secure Storage**, Integrazione nativa con **Keychain** (iOS) / **Keystore** (Android)) |
-| **Sicurezza Applicativa** | ✅✅ (Cifratura, Protezione dati sensibili, Tecniche di **Obfuscation**, Prevenzione Reverse Engineering di base) |
-| **Autenticazione Biometrica** | ✅✅ (Integrazione **FaceID**, **TouchID**, **Fingerprint** e **Windows Hello**) |
+| Controls & Layouts   | ✅✅✅ (StackLayout, Grid, FlexLayout, CollectionView, gestures)    |
+
+| Handlers & Templates | ✅✅ (custom controls, data templates, control customization)       |
+
+| Graphics & Animation | ✅✅ (animations, transitions, SkiaSharp integration)               |
+
+| MAUI Essentials      | ✅✅✅ (device info, connectivity, sensors, file system)            |
+
 
 ---
 
-### 5. ☁️ **Cloud, Backend & Microservizi**
 
-Capacità di integrare l'app MAUI in un ecosistema più ampio e moderno di servizi cloud.
+### 🌐 3. **Networking & APIs**
 
-| Servizio / Area | Dettagli |
-| :--- | :--- |
-| **Azure (o AWS/GCP) Backend** | ✅✅✅ (Conoscenza di **Azure App Services** / **API Gateway**, **Hosting di API Backend**) |
-| **Serverless Computing** | ✅✅ (**Azure Functions** / **AWS Lambda** / **Google Cloud Functions**, App event-driven) |
-| **Integrazione Firebase (o equivalente)** | ✅✅ (Uso di **Realtime Database**, **Cloud Messaging** per push notifications, Auth) |
-| **Gestione Backend** | ✅✅ (Gestione degli endpoint, Autenticazione lato API, **Throttling** e Best Practices per backend) |
 
----
+| Area             | Dettagli                                                           |
 
-### 6. 🧪 **Testing, Performance & Quality Assurance**
+| ---------------- | ------------------------------------------------------------------ |
 
-Competenze fondamentali per garantire la qualità, la stabilità e la velocità dell'applicazione.
+| HttpClient       | ✅✅✅ (GET, POST, JSON parsing, REST API integration)             |
 
-| Strumento / Area | Dettagli |
-| :--- | :--- |
-| **Unit & Integration Testing** | ✅✅✅ (**NUnit** / **xUnit**, **Moq** / **NSubstitute**, Unit Test, Integration Test, Test parametrizzati) |
-| **Performance Profiling** | ✅✅✅ (**Visual Studio Profiler** / **Instruments**, Analisi CPU/Memoria, Rilevamento di memory leak e colli di bottiglia) |
-| **Ottimizzazione Avanzata** | ✅✅✅ (Ottimizzazione **Garbage Collection**, **Lazy Loading** delle risorse, **Riduzione del footprint** dell'app, Ottimizzazione CPU/GPU) |
-| **Debugging & Code Analysis** | ✅✅✅ (Breakpoints, Hot Reload, Inspection, **.NET Analyzer** / **Roslyn**, Static Code Analysis, Linting) |
+| Refit / RESTEase | ✅✅ (client API semplificati, gestione endpoint)                  |
+
+| SignalR          | ✅✅ (real-time communication, push notifications, hub connection) |
+
+| GraphQL / gRPC   | ✅✅ (API avanzate, query e subscription)                          |
+
 
 ---
 
-### 7. 🛠️ **DevOps & Ciclo di Vita (CI/CD)**
 
-La capacità di automatizzare la costruzione, il testing e la distribuzione delle applicazioni su tutte le piattaforme target.
+### 💾 4. **Storage & Database**
 
-| Strumento / Area | Dettagli |
-| :--- | :--- |
-| **CI/CD Mobile** | ✅✅✅ (**Fastlane** / **App Center**, Automazione completa di build, deploy, test e distribuzione app) |
-| **Piattaforme CI/CD** | ✅✅ (**GitHub Actions** / **Azure DevOps Pipelines**, Creazione e manutenzione di pipeline di build e testing) |
-| **Distribuzione & Beta Testing** | ✅✅ (Gestione delle release su **TestFlight** / **Play Store Beta**, Firme digitali e certificati di provisioning) |
-| **Gestione Pacchetti** | ✅✅ (**NuGet**, Creazione, condivisione e gestione di librerie e pacchetti interni/esterni) |
 
----
+| Servizio / Area           | Dettagli                                                     |
 
-### 8. 🧑‍💻 **Soft Skills, Metodologie & Leadership**
+| ------------------------- | ------------------------------------------------------------ |
 
-Per un Senior, queste competenze definiscono la capacità di guidare un progetto e un team.
+| Preferences / Settings    | ✅✅ (archiviazione semplice di preferenze e configurazioni) |
 
-| Area | Dettagli |
-| :--- | :--- |
-| **Design Patterns & Architettura** | ✅✅✅ (**MVVM**, **Singleton**, **Factory**, **Dependency Injection**, **Observer**, **Solid Principles**, Pattern architetturali come CQRS o Clean Architecture) |
-| **Mentoring & Code Reviews** | ✅✅ (Guida del team, **Best practices**, Esecuzione di Code Review approfondite e costruttive) |
-| **Metodologie Agile** | ✅✅ (**Scrum**, **Kanban**, Stima delle user story, Partecipazione attiva a tutte le cerimonie Agile) |
-| **Decisioni Architetturali** | ✅✅ (**Architectural Decision Records - ADRs**, Documentazione chiara delle scelte tecniche, Valutazione di trade-off) |
+| SQLite / Entity Framework | ✅✅✅ (database locale, ORM, relazioni e query avanzate)    |
+
+| Realm / NoSQL             | ✅✅ (persistenza locale e sincronizzata dei dati)           |
+
+| File System / Streams     | ✅✅ (lettura e scrittura su file, gestione storage device)  |
+
 
 ---
 
-### 🌟 **Sintesi del Ruolo Senior**
 
-Sei un **Senior .NET MAUI Developer** se:
+### 🔐 5. **Sicurezza & Identity**
 
-1.  **Guida l'Architettura:** Sei il punto di riferimento per le decisioni architetturali, applicando **Design Patterns** avanzati e i **Principi SOLID**.
-2.  **Eccellenza Tecnica:** Progetti e sviluppi app MAUI cross-platform che sono non solo funzionali ma anche performanti, scalabili e sicure.
-3.  **Ottimizzazione Estrema:** Sei in grado di risolvere problemi di **performance complesse** (es. memory leak, rendering bottleneck) tramite profiling avanzato.
-4.  **Maestro del Ciclo di Vita:** Imposti e gestisci l'intero processo di sviluppo, inclusa l'automazione **CI/CD** su tutte le piattaforme target mobile e desktop.
-5.  **Mentore & Quality Gate:** Definisci le **Best Practices** del codice, esegui **Code Reviews** approfondite e garantisci un'ottima copertura di **Unit Test** e **Integration Test**.
+
+| Area                           | Dettagli                                                   |
+
+| ------------------------------ | ---------------------------------------------------------- |
+
+| Authentication & Authorization | ✅✅✅ (OAuth, JWT, Azure AD B2C, IdentityServer)          |
+
+| Secure Storage                 | ✅✅ (Preferences secure, Keychain / Keystore integration) |
+
+| App Security                   | ✅✅ (cifratura, protezione dati sensibili, obfuscation)   |
+
+| Biometric Authentication       | ✅✅ (FaceID, TouchID, fingerprint, Windows Hello)         |
+
+
+---
+
+
+### 🔧 6. **Testing & Debugging**
+
+
+| Strumento / Area            | Dettagli                                                  |
+
+| --------------------------- | --------------------------------------------------------- |
+
+| NUnit / xUnit               | ✅✅✅ (unit test, integration test, test parametrizzati) |
+
+| MAUI Hot Reload / Debug     | ✅✅✅ (breakpoints, inspection, live UI updates)         |
+
+| .NET Analyzer & Roslyn      | ✅✅ (analisi statica, code quality, linting)             |
+
+| Continuous Integration (CI) | ✅✅ (GitHub Actions, Azure DevOps, Bitrise)              |
+
+
+---
+
+
+### 🔄 7. **CI/CD & Automation**
+
+
+| Strumento                     | Dettagli                                          |
+
+| ----------------------------- | ------------------------------------------------- |
+
+| Fastlane / App Center         | ✅✅✅ (build, deploy, test, distribuzione app)   |
+
+| GitHub Actions / Azure DevOps | ✅✅ (CI/CD, build automation, testing pipelines) |
+
+| TestFlight / Play Store Beta  | ✅✅ (distribuzione beta su iOS e Android)        |
+
+| NuGet / Package Management    | ✅✅ (gestione librerie e pacchetti condivisi)    |
+
+
+---
+
+
+### 📈 8. **Performance & Optimizzazione**
+
+
+| Servizio / Area   | Dettagli                                                          |
+
+| ----------------- | ----------------------------------------------------------------- |
+
+| Profiling         | ✅✅✅ (Instruments, Visual Studio Profiler, CPU/Memory analysis) |
+
+| Memory Management | ✅✅✅ (ottimizzazione garbage collection, gestione leak)         |
+
+| Lazy Loading      | ✅✅ (ottimizzare caricamento risorse e immagini)                 |
+
+| Code Optimization | ✅✅ (riduzione footprint, ottimizzazione CPU/GPU)                |
+
+
+---
+
+
+### ☁️ 9. **Cloud & Backend Integration**
+
+
+| Servizio / Area          | Dettagli                                             |
+
+| ------------------------ | ---------------------------------------------------- |
+
+| Azure App Services       | ✅✅✅ (hosting, API backend, serverless functions)  |
+
+| Azure Functions / Lambda | ✅✅ (serverless backend, event-driven apps)         |
+
+| API Gateway / REST APIs  | ✅✅ (gestione endpoint, autenticazione, throttling) |
+
+| Firebase Integration     | ✅✅ (Realtime Database, Cloud Messaging)            |
+
+
+---
+
+
+### 🧑‍🤝‍🧑 10. **Soft Skills & Leadership**
+
+
+| Area                           | Dettagli                                                          |
+
+| ------------------------------ | ----------------------------------------------------------------- |
+
+| Code Reviews                   | ✅✅ (best practices, mentoring, code review)                     |
+
+| Design Patterns                | ✅✅✅ (MVVM, Singleton, Factory, Dependency Injection, Observer) |
+
+| Architectural Decision Records | ✅✅ (documentazione decisioni architetturali, trade-off)         |
+
+| Agile Methodologies            | ✅✅ (Scrum, Kanban, gestione progetti con metodologie agili)     |
+
+
+---
+
+
+## 🏁 Sei un **Senior .NET MAUI Developer** se:
+
+
+✅ Progetti e sviluppi app cross-platform performanti e scalabili
+
+✅ Conosci a fondo C# e il framework .NET MAUI, inclusi UI, binding e animazioni
+
+✅ Ottimizzi memoria, performance e caricamento dati
+
+✅ Gestisci con successo testing avanzato e CI/CD per iOS, Android e Windows
+
+✅ Hai esperienza nell’integrazione con backend cloud e API
+
+✅ Guiderai il team con best practices, design pattern e metodologie agili
+
+
+---
+
+
+## 🎁 Starter Kit consigliato:
+
+
+📦 **.NET MAUI Developer Playground**
+
+
+- 📱 **MAUI Essentials** per gestione dispositivi e sensori
+
+- 🏗️ **XAML & MVVM** per interfacce reactive e data binding
+
+- 🔧 **HttpClient / Refit** per networking e API integration
+
+- 💾 **SQLite / EF / Realm** per gestione dati persistenti
+
+- ⚙️ **Fastlane / App Center** per CI/CD e deploy
+
+- 📈 **Visual Studio Profiler** per analisi performance
+
+- 🔐 **Secure Storage / Keychain / Keystore** per credenziali
+
+
+---
+
+
+## 🎓 Risorse & Libri x studiare:
+
+
+### _Gratuite_
+
+
+- **YouTube Channels**:
+
+
+  - [Gerald Versluis](https://www.youtube.com/c/GeraldVersluis) 📺
+
+    Tutorial su .NET MAUI, cross-platform e app moderne.
+
+  - [DotNet](https://www.youtube.com/@dotnet) 📺
+
+    Canale ufficiale con video su C#, .NET MAUI e Azure.
+
+
+- **Articoli**:
+
+
+  - [.NET MAUI Official Docs](https://learn.microsoft.com/dotnet/maui/) ✍️
+
+    Guida completa su MAUI, controlli, layout e best practices.
+
+  - [Microsoft Learn – MAUI](https://learn.microsoft.com/learn/dotnet/maui/) ✍️
+
+    Percorsi guidati su cross-platform development.
+
+
+### _A Pagamento_
+
+
+- **Libri**:
+
+
+  - 📘 _Pro .NET MAUI_ – Alessandro Del Sole
+
+  - 📙 _Mastering .NET MAUI_ – John Miller
+
+
+- **Corsi**:
+
+
+  1. [Build Cross-Platform Apps with .NET MAUI – Udemy](https://www.udemy.com/course/build-cross-platform-apps-with-dotnet-maui/)
+
+  2. [Microsoft Learn – Pluralsight MAUI Paths](https://www.pluralsight.com/paths/microsoft-dotnet-maui)
+
+
+---
+
+Data questa skill tree, riorganizzala meglio, integrando eventualmente parti mancanti e spiegando ogni sezione in maniera esaustiva 
