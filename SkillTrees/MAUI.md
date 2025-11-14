@@ -1,7 +1,5 @@
 ## 🏗️ **Senior .NET MAUI Developer – Skill Stack (2025)**
 
----
-
 ### 📱 1. **Fondamenta .NET MAUI**
 
 
