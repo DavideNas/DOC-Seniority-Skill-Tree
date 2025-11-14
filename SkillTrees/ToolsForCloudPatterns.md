@@ -165,3 +165,216 @@
 5. 🕹️ **Workflow & Distributed Transactions**
 6. 🕸️ **Service Mesh**
 7. 🧬 **Modernizzazione (Strangler + ACL)**
+
+
+Perfetto — ho letto la tua skill tree su GitHub e ora **aggiungo tutte le parti mancanti**, includendo:
+
+✅ **Corsi consigliati**
+✅ **Libri essenziali**
+✅ **Risorse gratuite ufficiali**
+✅ **Documentazione e blog tecnici**
+✅ **Video YouTube / playlist formative**
+
+Tutto **in stile coerente** con il documento.
+
+---
+
+# 📚 **11. Risorse, Libri & Corsi Consigliati**
+
+*(Nuova sezione aggiuntiva basata sulla skill tree GitHub)*
+
+---
+
+# 🎓 **Corsi di Formazione (Cloud Patterns & EDA)**
+
+## ☁️ **AWS**
+
+* **Advanced Architecting on AWS**
+  [https://aws.amazon.com/training/classroom/advanced-architecting-aws/](https://aws.amazon.com/training/classroom/advanced-architecting-aws/)
+
+* **AWS Serverless Developer / Architect Learning Plan**
+  [https://explore.skillbuilder.aws/learn/paths](https://explore.skillbuilder.aws/learn/paths)
+
+* **AWS Event-Driven Architectures**
+  [https://serverlessland.com/eda](https://serverlessland.com/eda)
+
+* **AWS EDA Workshop**
+  [https://catalog.workshops.aws/eda/en-US](https://catalog.workshops.aws/eda/en-US)
+
+---
+
+## ☁️ **Google Cloud**
+
+* **Professional Cloud Architect Certification**
+  [https://cloud.google.com/learn/certification/cloud-architect](https://cloud.google.com/learn/certification/cloud-architect)
+
+* **Google Cloud Pub/Sub Deep Dive**
+  [https://cloud.google.com/pubsub/docs](https://cloud.google.com/pubsub/docs)
+
+* **Google Cloud Eventarc Training**
+  [https://cloud.google.com/eventarc/docs](https://cloud.google.com/eventarc/docs)
+
+---
+
+## ☁️ **Microsoft Azure**
+
+* **AZ-305 – Architecting Azure Infrastructure**
+  [https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/)
+
+* **Event-Driven Architectures on Azure**
+  [https://learn.microsoft.com/en-us/azure/architecture/guide/](https://learn.microsoft.com/en-us/azure/architecture/guide/)
+
+* **Azure Durable Functions Course**
+  [https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview)
+
+---
+
+## 🕸️ **Kubernetes**
+
+* **Kubernetes Patterns – Udemy**
+  [https://www.udemy.com/course/kubernetes-patterns-and-advanced-deployment-techniques/](https://www.udemy.com/course/kubernetes-patterns-and-advanced-deployment-techniques/)
+
+* **Google Kubernetes Engine (GKE) – Architect Track**
+  [https://cloud.google.com/training/gke](https://cloud.google.com/training/gke)
+
+* **Kubernetes Architecture & Patterns – CNCF**
+  [https://www.cncf.io/training/](https://www.cncf.io/training/)
+
+---
+
+# 📘 **Libri Fondamentali (Cloud Pattern + Event-Driven)**
+
+### 📗 *Cloud Native Patterns* – Cornelia Davis
+
+[https://www.manning.com/books/cloud-native-patterns](https://www.manning.com/books/cloud-native-patterns)
+
+### 📘 *Designing Event-Driven Systems* – Ben Stopford (Kafka)
+
+[https://www.confluent.io/designing-event-driven-systems/](https://www.confluent.io/designing-event-driven-systems/)
+
+### 📙 *Building Event-Driven Microservices* – Adam Bellemare
+
+[https://www.oreilly.com/library/view/building-event-driven-microservices/](https://www.oreilly.com/library/view/building-event-driven-microservices/)
+
+### 📕 *Software Architecture: The Hard Parts* – Richards & Ford
+
+[https://www.oreilly.com/library/view/software-architecture-the/](https://www.oreilly.com/library/view/software-architecture-the/)
+
+### 📗 *Designing Data-Intensive Applications* – Martin Kleppmann
+
+[https://dataintensive.net/](https://dataintensive.net/)
+
+### 📚 *Kubernetes Patterns* – Bilgin Ibryam (O’Reilly)
+
+[https://www.oreilly.com/library/view/kubernetes-patterns/](https://www.oreilly.com/library/view/kubernetes-patterns/)
+
+### 📘 *Microservices Patterns* – Chris Richardson
+
+[https://microservices.io/book](https://microservices.io/book)
+
+---
+
+# 🌐 **Risorse Gratuite Ufficiali (Cloud Providers)**
+
+## ☁️ AWS
+
+* **AWS Well-Architected Framework**
+  [https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+
+* **Serverless Land (pattern, esempi, EDA)**
+  [https://serverlessland.com/](https://serverlessland.com/)
+
+* **AWS Prescriptive Guidance**
+  [https://docs.aws.amazon.com/prescriptive-guidance/](https://docs.aws.amazon.com/prescriptive-guidance/)
+
+---
+
+## ☁️ Google Cloud
+
+* **Google Cloud Architecture Framework**
+  [https://cloud.google.com/architecture/framework](https://cloud.google.com/architecture/framework)
+
+* **Patterns for Event-Driven Architectures in GCP**
+  [https://cloud.google.com/architecture](https://cloud.google.com/architecture)
+
+---
+
+## ☁️ Microsoft Azure
+
+* **Azure Cloud Adoption Framework**
+  [https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/)
+
+* **Azure Architecture Center (pattern, EDA, integration)**
+  [https://learn.microsoft.com/en-us/azure/architecture/](https://learn.microsoft.com/en-us/azure/architecture/)
+
+---
+
+# 📨 **Messaging & Event Bus – Risorse Specifiche**
+
+## Apache Kafka
+
+* **Kafka Patterns & Internals**
+  [https://kafka.apache.org/documentation/](https://kafka.apache.org/documentation/)
+
+* **Confluent Developer Learning Path**
+  [https://developer.confluent.io/learn/](https://developer.confluent.io/learn/)
+
+---
+
+## RabbitMQ
+
+* **RabbitMQ Tutorials (ufficiali)**
+  [https://www.rabbitmq.com/getstarted.html](https://www.rabbitmq.com/getstarted.html)
+
+* **RabbitMQ Patterns Guide**
+  [https://www.rabbitmq.com/tutorials/](https://www.rabbitmq.com/tutorials/)
+
+---
+
+## EventBridge / EventGrid / Pub/Sub
+
+* **AWS EventBridge Patterns Collection**
+  [https://serverlessland.com/eventbridge/patterns](https://serverlessland.com/eventbridge/patterns)
+
+* **Azure EventGrid Concepts & Patterns**
+  [https://learn.microsoft.com/en-us/azure/event-grid/](https://learn.microsoft.com/en-us/azure/event-grid/)
+
+* **GCP Pub/Sub Patterns**
+  [https://cloud.google.com/pubsub/docs](https://cloud.google.com/pubsub/docs)
+
+---
+
+# 📺 **YouTube & Video Series**
+
+### 🌐 *TechWorld with Nana*
+
+Serverless, Kubernetes Patterns, EDA
+[https://www.youtube.com/@TechWorldwithNana](https://www.youtube.com/@TechWorldwithNana)
+
+### 📦 *Confluent Kafka Playlist*
+
+[https://www.youtube.com/c/confluent](https://www.youtube.com/c/confluent)
+
+### 🏗️ *Google Cloud – Architecture Framework*
+
+[https://www.youtube.com/@googlecloudplatform](https://www.youtube.com/@googlecloudplatform)
+
+### ☁️ *AWS Events / Serverless Bytes*
+
+[https://www.youtube.com/@AWSEvents](https://www.youtube.com/@AWSEvents)
+
+---
+
+# 🧪 **Hands-on Labs e Progetti Guided**
+
+* **AWS Workshops (Serverless, EDA, Patterns)**
+  [https://workshops.aws](https://workshops.aws)
+
+* **Google Cloud Skills Boost**
+  [https://www.cloudskillsboost.google/](https://www.cloudskillsboost.google/)
+
+* **Azure Hands-on Labs**
+  [https://learn.microsoft.com/en-us/training/](https://learn.microsoft.com/en-us/training/)
+
+* **Kubernetes Katacoda Scenarios**
+  [https://www.katacoda.com/courses/kubernetes](https://www.katacoda.com/courses/kubernetes)
