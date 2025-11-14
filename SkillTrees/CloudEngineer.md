@@ -2,7 +2,7 @@
 
 ---
 
-### 🧠 1. **Foundations & Cloud Concepts**
+### 🌐 1. **Foundations & Cloud Concepts**
 
 | Area                    | Competenze richieste                                                  |
 | ----------------------- | --------------------------------------------------------------------- |

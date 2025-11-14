@@ -1,8 +1,8 @@
-## ☁️ Senior Azure Cloud Engineer – Skill Stack (2025)
+## 🔷 Senior Azure Cloud Engineer – Skill Stack (2025)
 
 ---
 
-### 🧠 1. **Fondamenti Azure**
+### ☁️ 1. **Fondamenti Azure**
 
 | Area                        | Dettagli                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------ |

@@ -1,4 +1,4 @@
-## 🧠 Product Owner – Skill Stack (2025)
+## 📌 Product Owner – Skill Stack (2025)
 
 ---
 

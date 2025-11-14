@@ -1,8 +1,8 @@
-## 🛡️ Gray Hat Hacker – Skill Stack (2025)
+## 🌀 Gray Hat Hacker – Skill Stack (2025)
 
 ---
 
-### 🧠 1. **Fondamenta della Sicurezza Informatica**
+### 📚 1. **Fondamenta della Sicurezza Informatica**
 
 | Area                             | Dettagli                                                           |
 | -------------------------------- | ------------------------------------------------------------------ |

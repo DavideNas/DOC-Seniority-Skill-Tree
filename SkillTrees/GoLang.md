@@ -1,4 +1,4 @@
-## 🦫 Senior Go Developer – Skill Stack (2025)
+## 🐿️ Senior Go Developer – Skill Stack (2025)
 
 ---
 

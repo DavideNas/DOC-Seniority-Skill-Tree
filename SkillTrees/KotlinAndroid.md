@@ -1,4 +1,4 @@
-## 📱 Senior Kotlin Android Developer – Skill Stack (2025)
+## 🤖 Senior Kotlin Android Developer – Skill Stack (2025)
 
 ---
 

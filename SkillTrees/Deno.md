@@ -1,7 +1,3 @@
-Ecco la **Skill Stack 2025** per diventare un **Senior Deno (JS/TS) Developer**, con icone ✅ per livelli di competenza e uno **Starter Kit** consigliato.
-
----
-
 ## 🦕 Senior Deno Developer – Skill Stack (2025)
 
 ---

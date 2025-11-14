@@ -1,8 +1,8 @@
-## ☁️ Senior GCP Cloud Engineer – Skill Stack (2025)
+## 🔴 Senior GCP Cloud Engineer – Skill Stack (2025)
 
 ---
 
-### 🧠 1. **Fondamenta GCP**
+### 🌥️ 1. **Fondamenta GCP**
 
 | Area                      | Dettagli                                                      |
 | ------------------------- | ------------------------------------------------------------- |

@@ -1,8 +1,8 @@
-## ☁️ Senior AWS Cloud Engineer – Skill Stack (2025)
+## 🔶 Senior AWS Cloud Engineer – Skill Stack (2025)
 
 ---
 
-### 🧠 1. **Fondamenta AWS**
+### ☁️ 1. **Fondamenta AWS**
 
 | Area                      | Dettagli                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |

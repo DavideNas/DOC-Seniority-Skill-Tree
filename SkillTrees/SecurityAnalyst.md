@@ -2,7 +2,7 @@
 
 ---
 
-### 🧠 1. **Fondamenta e Principi di Sicurezza**
+### 🚨 1. **Fondamenta e Principi di Sicurezza**
 
 | Area                        | Dettagli                                                               |
 | --------------------------- | ---------------------------------------------------------------------- |

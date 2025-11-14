@@ -1,8 +1,8 @@
----
-## 🚀 Senior C++ Developer – Skill Stack (2025)
+## 🖥️ Senior C++ Developer – Skill Stack (2025)
+
 ---
 
-### 🧠 1. **Fondamenta del Linguaggio C++**
+### ⚡ 1. **Fondamenta del Linguaggio C++**
 
 | Area                  | Dettagli                                                |
 | --------------------- | ------------------------------------------------------- |

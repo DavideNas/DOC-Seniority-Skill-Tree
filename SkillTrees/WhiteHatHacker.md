@@ -2,7 +2,7 @@
 
 ---
 
-### 🧠 1. **Fondamenta Sicurezza Informatica**
+### 🕵️ 1. **Fondamenta Sicurezza Informatica**
 
 | Area                        | Dettagli                                                                |
 | --------------------------- | ----------------------------------------------------------------------- |

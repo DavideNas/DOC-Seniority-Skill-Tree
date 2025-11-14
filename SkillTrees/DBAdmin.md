@@ -1,4 +1,4 @@
-## 🛢️ DB Admin – Skill Tree (PostgreSQL, MySQL, NoSQL, DevOps, 2025)
+## 🗄️ DB Admin – Skill Tree (PostgreSQL, MySQL, NoSQL, DevOps, 2025)
 
 ---
 

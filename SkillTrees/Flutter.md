@@ -1,4 +1,4 @@
-## 📱 Senior Flutter Developer – Skill Stack (2025)
+## ✨ Senior Flutter Developer – Skill Stack (2025)
 
 ---
 

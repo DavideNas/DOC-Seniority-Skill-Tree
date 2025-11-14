@@ -1,7 +1,3 @@
-Perfetto, allora estendiamo la **Skill Tree per un Java Developer Senior** con un **modulo completo dedicato a Oracle DB**, pensato per contesti **enterprise** in cui Oracle è ancora molto usato per transazioni mission-critical, tuning avanzato e PL/SQL.
-
----
-
 ## 🛢️ Oracle DB – Skill Tree per Java Developer Senior (2025)
 
 ---

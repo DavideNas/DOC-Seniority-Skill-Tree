@@ -1,7 +1,3 @@
-Perfetto! Ecco la **scheda completa per Scrum Master**, nello stesso stile delle precedenti:
-
----
-
 ## 🚀 Scrum Master – Skill Stack (2025)
 
 ---

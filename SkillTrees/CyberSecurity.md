@@ -1,12 +1,8 @@
-Ecco una scheda dettagliata su **Cyber Security** che puoi aggiungere alla tua roadmap:
-
----
-
 ### 🛡️ **Cyber Security – Skill Stack (2025)**
 
 ---
 
-### 🧠 1. **Fondamenta della Sicurezza Informatica**
+### 💻 1. **Fondamenta della Sicurezza Informatica**
 
 | Area                            | Dettagli                                                             |
 | ------------------------------- | -------------------------------------------------------------------- |

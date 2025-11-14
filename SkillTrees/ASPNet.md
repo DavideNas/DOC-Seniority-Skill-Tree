@@ -1,7 +1,3 @@
-Perfetto! Procedo con la scheda completa per **ASP.NET Core Developer**, in stile tecnico e operativo, pensata per un profilo che vuole arrivare a una **padronanza senior** nello sviluppo backend con C# e .NET.
-
----
-
 ## 🧩 ASP.NET Core Developer – Skill Stack (2025)
 
 ---

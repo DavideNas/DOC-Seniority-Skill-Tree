@@ -1,12 +1,8 @@
-Perfetto! Se vuoi aggiungere una sezione nello **stile della scheda GCP** per il profilo di un **Green Hat Hacker**, ecco come potrebbe essere strutturata:
+## 🟢 Green Hat Hacker – Skill Stack (2025)
 
 ---
 
-## 🧢 Green Hat Hacker – Skill Stack (2025)
-
----
-
-### 🧠 1. **Fondamenta della Sicurezza**
+### 💻 1. **Fondamenta della Sicurezza**
 
 | Area                       | Dettagli                                           |
 | -------------------------- | -------------------------------------------------- |

@@ -1,4 +1,4 @@
-## 📱 Senior React Native Developer – Skill Stack (2025)
+## ⚛️ Senior React Native Developer – Skill Stack (2025)
 
 ---
 

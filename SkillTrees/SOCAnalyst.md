@@ -2,7 +2,7 @@
 
 ---
 
-### 🧠 1. **Fondamenta di Cybersecurity**
+### 🧿 1. **Fondamenta di Cybersecurity**
 
 | Area                     | Dettagli                                                           |
 | ------------------------ | ------------------------------------------------------------------ |

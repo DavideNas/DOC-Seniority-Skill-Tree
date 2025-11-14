@@ -2,7 +2,7 @@
 
 ---
 
-### 🧠 1. **Fondamenta di Incident Response**
+### 🧯 1. **Fondamenta di Incident Response**
 
 | Area                          | Dettagli                                                                       |
 | ----------------------------- | ------------------------------------------------------------------------------ |

@@ -2,7 +2,7 @@
 
 ---
 
-### 🧠 1. **Fondamenta della Crittografia**
+### 🗝️ 1. **Fondamenta della Crittografia**
 
 | Area                     | Dettagli                                                               |
 | ------------------------ | ---------------------------------------------------------------------- |

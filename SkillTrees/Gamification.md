@@ -1,12 +1,8 @@
-Ecco la scheda di Gamification applicata all'Agile:
-
----
-
 ## 🎮 **Gamification in Agile** – Skill Stack (2025)
 
 ---
 
-### 🧠 1. **Fondamenta della Gamification**
+### 📜 1. **Fondamenta della Gamification**
 
 | Area                         | Dettagli                                                         |
 | ---------------------------- | ---------------------------------------------------------------- |

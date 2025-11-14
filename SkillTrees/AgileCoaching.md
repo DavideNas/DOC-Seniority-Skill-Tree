@@ -1,4 +1,4 @@
-## 🧠 Agile Coach – Skill Stack (2025)
+## 🧭 Agile Coach – Skill Stack (2025)
 
 ---
 
