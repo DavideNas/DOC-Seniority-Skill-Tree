@@ -72,16 +72,19 @@
 
 #### _Competenze per lavorare con infrastrutture cloud e servizi distribuiti._
 
-- [Cloud Engineer](SkillTrees/CloudEngineer.md) ☁️
-- [AWS](SkillTrees/AWS.md) 🔶
-  - [AWSSQS](SkillTrees/AWSSQS.md)
-  - [AmazonMQ](SkillTrees/AmazonMQ.md)
-- [GCP](SkillTrees/GCP.md) 🔴
-  - [GCPPubSub](SkillTrees/GCPPubSub.md)
-- [Azure](SkillTrees/Azure.md) 🔷
-  - [AzureServiceBus](SkillTrees/AzureServiceBus.md)
-  - [AzureEventHubs](SkillTrees/AzureEventHubs.md)
-  - [AzureEventGrid](SkillTrees/AzureEventGrid.md)
+* [Cloud Engineer](SkillTrees/CloudEngineer.md) ☁️
+* [AWS](SkillTrees/AWS.md) 🔶
+
+  * [AWSSQS](SkillTrees/AWSSQS.md) 📬
+  * [AmazonMQ](SkillTrees/AmazonMQ.md) 🟠
+* [GCP](SkillTrees/GCP.md) 🔴
+
+  * [GCPPubSub](SkillTrees/GCPPubSub.md) 📨
+* [Azure](SkillTrees/Azure.md) 🔷
+
+  * [AzureServiceBus](SkillTrees/AzureServiceBus.md) 📡
+  * [AzureEventHubs](SkillTrees/AzureEventHubs.md) 🌐
+  * [AzureEventGrid](SkillTrees/AzureEventGrid.md) ⚡
 
 ---
 
