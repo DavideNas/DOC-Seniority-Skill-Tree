@@ -12,7 +12,7 @@
 | Properties & Indexers    | ✅✅✅ (get/set, expression-bodied, auto-implemented)             |
 | [Record & Tuple](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/record-e-tuple.md>)           | ✅✅ record class/struct, tuple naming |
 | [Pattern Matching (C# 8+)](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/pattern-matching.md>) | ✅✅ property/relational patterns, `is`, `switch` |
-| Eccezioni (completo)     | ✅✅ custom exceptions, bubbling, best practices |
+| [Eccezioni](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/eccezioni.md>)     | ✅✅ custom exceptions, bubbling, best practices |
 
 ---
 
