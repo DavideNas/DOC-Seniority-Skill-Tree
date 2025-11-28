@@ -24,7 +24,7 @@
 | Interfacce & Dependency Injection | ✅✅✅ (SOLID, IoC containers)                                        |
 | Generics                          | ✅✅✅ (collections, constraints, covariance/contravariance)          |
 | Immutability in C#                | ✅✅ record immutabili, readonly |
-| Delegates & Events                | ✅✅ event-driven, publisher/subscriber, Func/Action |
+| [Delegates & Events](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/delegate-and-event.md>)                | ✅✅ event-driven, publisher/subscriber, Func/Action |
 | Reflection (base)                 | ✅ Type, Assembly, Activator |
 | Attributes & Reflection Usage     | ✅ lettura/creazione attributi custom |
 
