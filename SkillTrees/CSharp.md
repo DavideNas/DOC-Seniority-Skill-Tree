@@ -8,7 +8,7 @@
 | ------------------------ | ----------------------------------------------------------------- |
 | [Sintassi Base](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/sintassi-base.md>)            | ✅✅✅ (tipi, cicli, condizioni, funzioni, classi, namespace)     |
 | [Tipi di Dato](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/DataType.md>)             | ✅✅✅ (`int`, `decimal`, `string`, `DateTime`, `var`, `dynamic`, `nullable types`) |
-| Value vs Reference Types | ✅✅✅ (`struct`, `class`, **boxing/unboxing**, `ref`, `out`, `in`)                       |
+| [Value vs Reference Types](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/value-reference-type.md>) | ✅✅✅ (`struct`, `class`, **boxing/unboxing**, `ref`, `out`, `in`)                       |
 | Properties & Indexers    | ✅✅✅ (get/set, expression-bodied, auto-implemented)             |
 | Record & Tuple           | ✅✅ record class/struct, tuple naming |
 | Pattern Matching (C# 8+) | ✅✅ property/relational patterns, `is`, `switch` |
