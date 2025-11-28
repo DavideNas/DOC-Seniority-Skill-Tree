@@ -6,7 +6,7 @@
 
 | Area                     | Dettagli                                                          |
 | ------------------------ | ----------------------------------------------------------------- |
-| Sintassi Base            | ✅✅✅ (tipi, cicli, condizioni, funzioni, classi, namespace)     |
+| [Sintassi Base](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/sintassi-base.md>)            | ✅✅✅ (tipi, cicli, condizioni, funzioni, classi, namespace)     |
 | [Tipi di Dato](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/DataType.md>)             | ✅✅✅ (`int`, `decimal`, `string`, `DateTime`, `var`, `dynamic`, `nullable types`) |
 | Value vs Reference Types | ✅✅✅ (`struct`, `class`, **boxing/unboxing**, `ref`, `out`, `in`)                       |
 | Properties & Indexers    | ✅✅✅ (get/set, expression-bodied, auto-implemented)             |
