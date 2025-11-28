@@ -29,7 +29,7 @@
 
 | Area                                 | Dettagli                                             |
 | ------------------------------------ | ---------------------------------------------------- |
-| `async/await`                        | ✅✅✅ (I/O non bloccante, Task-based async pattern) |
+| [`async/await`](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/async-await.md>)                        | ✅✅✅ (I/O non bloccante, Task-based async pattern) |
 | Task Parallel Library                | ✅✅ (TPL, `Task.Run`, `Parallel.ForEach`)           |
 | Cancellation Token                   | ✅✅ (gestione cancellazione async)                  |
 | Channels (System.Threading.Channels) | ✅ (code asincrone thread-safe)                      |
