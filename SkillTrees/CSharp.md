@@ -30,7 +30,7 @@
 
 ---
 
-🔥 3. LINQ & Expression Trees
+### 🔥 3. LINQ & Expression Trees
 
 
 | Area                              | Dettagli                                                              |
@@ -55,7 +55,7 @@
 
 ---
 
-♻️ 5. Memory Management & Performance
+### ♻️ 5. Memory Management & Performance
 
 | Area                                 | Dettagli                                             |
 | ------------------------------------ | ---------------------------------------------------- |
