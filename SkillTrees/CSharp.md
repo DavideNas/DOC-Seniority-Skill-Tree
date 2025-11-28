@@ -10,7 +10,7 @@
 | [Tipi di Dato](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/DataType.md>)             | ✅✅✅ (`int`, `decimal`, `string`, `DateTime`, `var`, `dynamic`, `nullable types`) |
 | [Value vs Reference Types](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/value-reference-type.md>) | ✅✅✅ (`struct`, `class`, **boxing/unboxing**, `ref`, `out`, `in`)                       |
 | Properties & Indexers    | ✅✅✅ (get/set, expression-bodied, auto-implemented)             |
-| Record & Tuple           | ✅✅ record class/struct, tuple naming |
+| [Record & Tuple](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/record-e-tuple.md>)           | ✅✅ record class/struct, tuple naming |
 | Pattern Matching (C# 8+) | ✅✅ property/relational patterns, `is`, `switch` |
 | Eccezioni (completo)     | ✅✅ custom exceptions, bubbling, best practices |
 
