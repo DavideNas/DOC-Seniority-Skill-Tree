@@ -36,7 +36,7 @@
 | Area                              | Dettagli                                                              |
 | --------------------------------- | --------------------------------------------------------------------- |
 | [LINQ](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/LINQ.md>) | ✅✅✅ (`Where`, `Select`, `GroupBy`, `Join`, `Any`, `All`, `ToList`) |
-| LINQ Avanzato | ✅✅ SelectMany, GroupJoin, Zip |
+| [LINQ Avanzato](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/LINQ-avanzato.md>) | ✅✅ SelectMany, GroupJoin, Zip |
 | Expression Trees | ✅ Expression<T>, generazione dinamica |
 | LINQ-to-Objects / EF | ✅✅ execution model, deferred execution |
 
