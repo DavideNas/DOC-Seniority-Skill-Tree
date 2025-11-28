@@ -59,7 +59,7 @@
 
 | Area                                 | Dettagli                                             |
 | ------------------------------------ | ---------------------------------------------------- |
-| Garbage Collector                    | ✅ generazioni, LOH, modalità Server/Workstation |
+| [Garbage Collector](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/garbage-collector.md>)                    | ✅ generazioni, LOH, modalità Server/Workstation |
 | IDisposable & using                  | ✅✅ `IDisposable`, `IAsyncDisposable`, using declarations |
 | Memory Profiling                     | ✅ BenchmarkDotNet, dotMemory, dotTrace |
 | WeakReference                        | ✅ scenari edge-case per caching |
