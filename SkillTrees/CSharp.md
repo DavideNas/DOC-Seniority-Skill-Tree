@@ -7,7 +7,7 @@
 | Area                     | Dettagli                                                          |
 | ------------------------ | ----------------------------------------------------------------- |
 | Sintassi Base            | ✅✅✅ (tipi, cicli, condizioni, funzioni, classi, namespace)     |
-| Tipi di Dato             | ✅✅✅ (`int`, `decimal`, `string`, `DateTime`, `var`, `dynamic`) |
+| [Tipi di Dato](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/DataType.md>)             | ✅✅✅ (`int`, `decimal`, `string`, `DateTime`, `var`, `dynamic`) |
 | Value vs Reference Types | ✅✅✅ (`struct`, `class`, boxing/unboxing)                       |
 | Properties & Indexers    | ✅✅✅ (get/set, expression-bodied, auto-implemented)             |
 
