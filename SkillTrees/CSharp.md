@@ -7,9 +7,12 @@
 | Area                     | Dettagli                                                          |
 | ------------------------ | ----------------------------------------------------------------- |
 | Sintassi Base            | ✅✅✅ (tipi, cicli, condizioni, funzioni, classi, namespace)     |
-| [Tipi di Dato](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/DataType.md>)             | ✅✅✅ (`int`, `decimal`, `string`, `DateTime`, `var`, `dynamic`) |
-| Value vs Reference Types | ✅✅✅ (`struct`, `class`, boxing/unboxing)                       |
+| [Tipi di Dato](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/DataType.md>)             | ✅✅✅ (`int`, `decimal`, `string`, `DateTime`, `var`, `dynamic`, `nullable types`) |
+| Value vs Reference Types | ✅✅✅ (`struct`, `class`, **boxing/unboxing**, `ref`, `out`, `in`)                       |
 | Properties & Indexers    | ✅✅✅ (get/set, expression-bodied, auto-implemented)             |
+| Record & Tuple           | ✅✅ record class/struct, tuple naming |
+| Pattern Matching (C# 8+) | ✅✅ property/relational patterns, `is`, `switch` |
+| Eccezioni (completo)     | ✅✅ custom exceptions, bubbling, best practices |
 
 ---
 
@@ -20,23 +23,49 @@
 | Ereditarietà & Polimorfismo       | ✅✅✅ (override, abstract, virtual, sealed)                          |
 | Interfacce & Dependency Injection | ✅✅✅ (SOLID, IoC containers)                                        |
 | Generics                          | ✅✅✅ (collections, constraints, covariance/contravariance)          |
-| [LINQ](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/LINQ.md>)                              | ✅✅✅ (`Where`, `Select`, `GroupBy`, `Join`, `Any`, `All`, `ToList`) |
-| Delegati & Eventi                 | ✅✅✅ (event-driven, publisher/subscriber)                           |
+| Immutability in C#                | ✅✅ record immutabili, readonly |
+| Delegates & Events                | ✅✅ event-driven, publisher/subscriber, Func/Action |
+| Reflection (base)                 | ✅ Type, Assembly, Activator |
+| Attributes & Reflection Usage     | ✅ lettura/creazione attributi custom |
 
 ---
 
-### 🚀 3. **Asynchronous Programming**
+🔥 3. LINQ & Expression Trees
+
+
+| Area                              | Dettagli                                                              |
+| --------------------------------- | --------------------------------------------------------------------- |
+| [LINQ](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/LINQ.md>) | ✅✅✅ (`Where`, `Select`, `GroupBy`, `Join`, `Any`, `All`, `ToList`) |
+| LINQ Avanzato | ✅✅ SelectMany, GroupJoin, Zip |
+| Expression Trees | ✅ Expression<T>, generazione dinamica |
+| LINQ-to-Objects / EF | ✅✅ execution model, deferred execution |
+
+---
+
+### 🚀 4. **Asynchronous Programming**
 
 | Area                                 | Dettagli                                             |
 | ------------------------------------ | ---------------------------------------------------- |
 | [`async/await`](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/async-await.md>)                        | ✅✅✅ (I/O non bloccante, Task-based async pattern) |
 | Task Parallel Library                | ✅✅ (TPL, `Task.Run`, `Parallel.ForEach`)           |
 | [Cancellation Token](https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/cancellation-token.md)                   | ✅✅ (gestione cancellazione async)                  |
-| Channels (System.Threading.Channels) | ✅ (code asincrone thread-safe)                      |
+| Channels (System.Threading.Channels) | ✅ (producer/consumer pattern)                      |
+| TPL Dataflow (concetti generali)     | ✅ buffer blocks, transform blocks |
+| Span<T>, Memory<T>, ReadOnlySpan<T>  | ✅ slicing, stackalloc, memoria efficiente |
 
 ---
 
-### 🌍 4. **ASP.NET Core & Web API**
+♻️ 5. Memory Management & Performance
+
+| Area                                 | Dettagli                                             |
+| ------------------------------------ | ---------------------------------------------------- |
+| Garbage Collector                    | ✅ generazioni, LOH, modalità Server/Workstation |
+| IDisposable & using                  | ✅✅ `IDisposable`, `IAsyncDisposable`, using declarations |
+| Memory Profiling                     | ✅ BenchmarkDotNet, dotMemory, dotTrace |
+| WeakReference                        | ✅ scenari edge-case per caching |
+
+---
+### 🌍 6. **ASP.NET Core & Web API**
 
 | Area                      | Dettagli                                                    |
 | ------------------------- | ----------------------------------------------------------- |
@@ -48,7 +77,7 @@
 
 ---
 
-### 🔐 5. **Sicurezza & Configurazioni**
+### 🔐 7. **Sicurezza & Configurazioni**
 
 | Area                     | Dettagli                                      |
 | ------------------------ | --------------------------------------------- |
@@ -59,7 +88,7 @@
 
 ---
 
-### 🧪 6. **Testing & Debugging**
+### 🧪 8. **Testing & Debugging**
 
 | Area                | Dettagli                                              |
 | ------------------- | ----------------------------------------------------- |
@@ -70,7 +99,7 @@
 
 ---
 
-### ⚙️ 7. **Tooling, CI/CD e Deployment**
+### ⚙️ 9. **Tooling, CI/CD e Deployment**
 
 | Area            | Dettagli                                                              |
 | --------------- | --------------------------------------------------------------------- |
@@ -81,7 +110,7 @@
 
 ---
 
-### 🔄 8. **Design Patterns & Architetture Avanzate**
+### 🔄 10. **Design Patterns & Architetture Avanzate**
 
 | Area                      | Dettagli                                           |
 | ------------------------- | -------------------------------------------------- |
