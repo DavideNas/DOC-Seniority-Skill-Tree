@@ -22,7 +22,7 @@
 | --------------------------------- | --------------------------------------------------------------------- |
 | Ereditarietà & Polimorfismo       | ✅✅✅ (override, abstract, virtual, sealed)                          |
 | Interfacce & Dependency Injection | ✅✅✅ (SOLID, IoC containers)                                        |
-| Generics                          | ✅✅✅ (collections, constraints, covariance/contravariance)          |
+| [Generics](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/generics.md>)                          | ✅✅✅ (collections, constraints, covariance/contravariance)          |
 | [Immutability in C#](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/immutability.md>)                | ✅✅ record immutabili, readonly |
 | [Delegates & Events](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/delegate-and-event.md>)                | ✅✅ event-driven, publisher/subscriber, Func/Action |
 | Reflection (base)                 | ✅ Type, Assembly, Activator |
