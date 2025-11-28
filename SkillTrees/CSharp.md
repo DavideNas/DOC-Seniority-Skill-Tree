@@ -20,7 +20,7 @@
 
 | Area                              | Dettagli                                                              |
 | --------------------------------- | --------------------------------------------------------------------- |
-| Ereditarietà & Polimorfismo       | ✅✅✅ (override, abstract, virtual, sealed)                          |
+| [Ereditarietà & Polimorfismo](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/inheritance-and-polymorphism.md>)       | ✅✅✅ (override, abstract, virtual, sealed)                          |
 | [Interfacce & Dependency Injection](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/interfacce-e-dependency-injection.md>) | ✅✅✅ (SOLID, IoC containers)                                        |
 | [Generics](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/generics.md>)                          | ✅✅✅ (collections, constraints, covariance/contravariance)          |
 | [Immutability in C#](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/immutability.md>)                | ✅✅ record immutabili, readonly |
