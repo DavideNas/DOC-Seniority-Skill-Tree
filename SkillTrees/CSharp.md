@@ -20,7 +20,7 @@
 | Ereditarietà & Polimorfismo       | ✅✅✅ (override, abstract, virtual, sealed)                          |
 | Interfacce & Dependency Injection | ✅✅✅ (SOLID, IoC containers)                                        |
 | Generics                          | ✅✅✅ (collections, constraints, covariance/contravariance)          |
-| LINQ                              | ✅✅✅ (`Where`, `Select`, `GroupBy`, `Join`, `Any`, `All`, `ToList`) |
+| [LINQ](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/LINQ.md>)                              | ✅✅✅ (`Where`, `Select`, `GroupBy`, `Join`, `Any`, `All`, `ToList`) |
 | Delegati & Eventi                 | ✅✅✅ (event-driven, publisher/subscriber)                           |
 
 ---
