@@ -11,7 +11,7 @@
 | [Value vs Reference Types](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/value-reference-type.md>) | ✅✅✅ (`struct`, `class`, **boxing/unboxing**, `ref`, `out`, `in`)                       |
 | Properties & Indexers    | ✅✅✅ (get/set, expression-bodied, auto-implemented)             |
 | [Record & Tuple](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/record-e-tuple.md>)           | ✅✅ record class/struct, tuple naming |
-| Pattern Matching (C# 8+) | ✅✅ property/relational patterns, `is`, `switch` |
+| [Pattern Matching (C# 8+)](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/pattern-matching.md>) | ✅✅ property/relational patterns, `is`, `switch` |
 | Eccezioni (completo)     | ✅✅ custom exceptions, bubbling, best practices |
 
 ---
