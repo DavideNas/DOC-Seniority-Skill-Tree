@@ -47,7 +47,7 @@
 | Area                                 | Dettagli                                             |
 | ------------------------------------ | ---------------------------------------------------- |
 | [`async/await`](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/async-await.md>)                        | ✅✅✅ (I/O non bloccante, Task-based async pattern) |
-| Task Parallel Library                | ✅✅ (TPL, `Task.Run`, `Parallel.ForEach`)           |
+| [Task Parallel Library](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/task-parallel-library.md>)                | ✅✅ (TPL, `Task.Run`, `Parallel.ForEach`)           |
 | [Cancellation Token](https://github.com/DavideNas/Glossario-Tecnico/blob/main/C%23/cancellation-token.md)                   | ✅✅ (gestione cancellazione async)                  |
 | Channels (System.Threading.Channels) | ✅ (producer/consumer pattern)                      |
 | TPL Dataflow (concetti generali)     | ✅ buffer blocks, transform blocks |
