@@ -114,7 +114,7 @@
 
 | Area                      | Dettagli                                           |
 | ------------------------- | -------------------------------------------------- |
-| Repository Pattern        | ✅✅✅ (separazione persistenza/logica)            |
+| [Repository Pattern](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/RepositoryPattern.md>)        | ✅✅✅ (separazione persistenza/logica)            |
 | CQRS & MediatR            | ✅✅ (Command-Query separation, decoupling)        |
 | Clean Architecture        | ✅✅✅ (domain-driven structure, layer separation) |
 | Microservizi & DDD        | ✅✅ (Bounded Context, DDD + API)                  |
