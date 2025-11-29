@@ -7,7 +7,7 @@
 | Area          | Dettagli                                                        |
 | ------------- | --------------------------------------------------------------- |
 | [Components](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Components.md>)    | ✅✅✅ (declarativi, lifecycle, change detection)               |
-| Templates     | ✅✅✅ (structural directives `*ngIf`, `*ngFor`, interpolation) |
+| [Templates](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Templates.md>)     | ✅✅✅ (structural directives `*ngIf`, `*ngFor`, interpolation) |
 | Modules       | ✅✅✅ (feature modules, lazy load, shared module)              |
 | Services & DI | ✅✅✅ (provider scope, injectable services, hierarchical DI)   |
 | Pipes         | ✅✅✅ (built-in + custom, pure vs impure)                      |
