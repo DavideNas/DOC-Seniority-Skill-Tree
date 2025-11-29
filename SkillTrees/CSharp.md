@@ -82,7 +82,7 @@
 | Area                     | Dettagli                                      |
 | ------------------------ | --------------------------------------------- |
 | [Config Binding](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/ConfigBinding.md>)           | ✅✅✅ (appsettings.json, `IOptions<T>`)      |
-| User Authentication      | ✅✅ (JWT, cookie-based, role-based access)   |
+| [User Authentication](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/UserAuth-JWT-vs-Cookie.md>)      | ✅✅ (JWT, cookie-based, role-based access)   |
 | Secrets & Key Management | ✅✅ (`dotnet user-secrets`, Azure Key Vault) |
 | CORS, Rate Limiting      | ✅✅ (middleware e attributi)                 |
 
