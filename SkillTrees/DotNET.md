@@ -6,11 +6,11 @@
 
 | Area                 | Dettagli                                                    |
 | -------------------- | ----------------------------------------------------------- |
-| C# 11+               | ✅✅✅ (record types, pattern matching, nullable ref types) |
-| .NET 8               | ✅✅✅ (Minimal APIs, performance boost, native AOT)        |
-| LINQ & Lambda        | ✅✅✅ (indispensabile per lavorare su collection/queries)  |
-| Task / Async Await   | ✅✅✅ (concorrenza e async programming)                    |
-| Dependency Injection | ✅✅✅ (built-in container, scoped/transient/singleton)     |
+| [C# 11+](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/CSharp11.md>)               | ✅✅✅ (record types, pattern matching, nullable ref types) |
+| [.NET 8](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/DotNET8.md>)               | ✅✅✅ (Minimal APIs, performance boost, native AOT)        |
+| [LINQ & Lambda](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/LINQ-and-Lambda.md>)        | ✅✅✅ (indispensabile per lavorare su collection/queries)  |
+| [Task / Async Await](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Task-Async-Await.md>)   | ✅✅✅ (concorrenza e async programming)                    |
+| [Dependency Injection](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/DependencyInjection.md>) | ✅✅✅ (built-in container, scoped/transient/singleton)     |
 
 ---
 
