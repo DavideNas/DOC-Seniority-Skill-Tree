@@ -72,7 +72,7 @@
 | [REST API](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/REST.md>)                  | ✅✅✅ (`HttpGet`, `HttpPost`, routing, JSON serialization) |
 | [Middleware & Filters](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/Middleware-e-Filtri.md>)      | ✅✅✅ (pipeline personalizzata, autorizzazioni)            |
 | [Dependency Injection](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/DependecyInjection-durata-del-servizio.md>)      | ✅✅✅ (registrazione `AddScoped`, `AddSingleton`, etc.)    |
-| Entity Framework Core     | ✅✅✅ (DbContext, LINQ-to-SQL, Migrations, Fluent API)     |
+| [Entity Framework Core](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/EntityFrameworkCore.md>)     | ✅✅✅ (DbContext, LINQ-to-SQL, Migrations, Fluent API)     |
 | Authentication & Identity | ✅✅ (JWT, ASP.NET Identity, OAuth)                         |
 
 ---
