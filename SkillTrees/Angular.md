@@ -106,7 +106,7 @@
 
 | Area                      | Dettagli                                               |
 | ------------------------- | ------------------------------------------------------ |
-| Scalable Folder Structure | ✅✅✅ (feature-based, domain-driven)                  |
+| [Scalable Folder Structure](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/ScalableFolderStructure.md>) | ✅✅✅ (feature-based, domain-driven)                  |
 | Clean Architecture        | ✅✅✅ (presentation vs core layers, ports/adapters)   |
 | Monorepo (Nx)             | ✅✅ (modularization, shared libraries, build caching) |
 | SSR / SSG                 | ✅ (Angular Universal)                                 |
