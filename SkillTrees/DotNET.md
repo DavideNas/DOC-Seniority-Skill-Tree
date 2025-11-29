@@ -42,9 +42,9 @@
 
 | Area                    | Dettagli                                         |
 | ----------------------- | ------------------------------------------------ |
-| xUnit / NUnit / MSTest  | ✅✅✅ (framework test unitari più diffusi)      |
-| Moq                     | ✅✅✅ (mocking delle dipendenze nei test)       |
-| FluentAssertions        | ✅✅✅ (assert semantiche e leggibili)           |
+| [xUnit / NUnit / MSTest](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/UnitTesting.md>)  | ✅✅✅ (framework test unitari più diffusi)      |
+| [Moq](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Mocking.md>)                     | ✅✅✅ (mocking delle dipendenze nei test)       |
+| [FluentAssertions](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/FluentAssertion.md>)        | ✅✅✅ (assert semantiche e leggibili)           |
 | Test REST / Integration | ✅✅ (test end-to-end su Web API)                |
 | Coverage & Analysis     | ✅✅✅ (coverlet, SonarQube, JetBrains dotCover) |
 
