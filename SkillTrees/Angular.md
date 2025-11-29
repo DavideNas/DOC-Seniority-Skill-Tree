@@ -29,7 +29,7 @@
 
 | Area           | Dettagli                                         |
 | -------------- | ------------------------------------------------ |
-| Angular Router | ✅✅✅ (route config, params, guards, lazy load) |
+| [Angular Router](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/AngularRouter.md>) | ✅✅✅ (route config, params, guards, lazy load) |
 | Route Guards   | ✅✅✅ (`canActivate`, `canLoad`, `resolve`)     |
 | Nested Routes  | ✅✅✅ (children, auxiliary outlets, redirects)  |
 | Param Handling | ✅✅ (snapshot vs observable, query params)      |
