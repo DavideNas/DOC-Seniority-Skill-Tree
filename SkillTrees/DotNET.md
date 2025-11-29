@@ -30,11 +30,11 @@
 
 | Area                  | Dettagli                                                |
 | --------------------- | ------------------------------------------------------- |
-| Entity Framework Core | ✅✅✅ (code-first, migrations, lazy loading, tracking) |
-| Dapper                | ✅✅ (micro ORM per query raw e performance)            |
+| [Entity Framework Core](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/EntityFrameworkCore.md>) | ✅✅✅ (code-first, migrations, lazy loading, tracking) |
+| [Dapper](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/Dapper-MicroORM.md>)                | ✅✅ (micro ORM per query raw e performance)            |
 | LINQ-to-SQL           | ✅ (non più mainstream, ma conoscerlo può servire)      |
 | Azure Cosmos DB SDK   | ✅ (se lavori NoSQL su Azure)                           |
-| SQL Server            | ✅✅✅ (Stored Proc, indexing, query tuning)            |
+| [SQL Server](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/SQLServer.md>)            | ✅✅✅ (Stored Proc, indexing, query tuning)            |
 
 ---
 
