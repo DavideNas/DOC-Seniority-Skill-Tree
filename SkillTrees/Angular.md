@@ -32,7 +32,7 @@
 | [Angular Router](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/AngularRouter.md>) | ✅✅✅ (route config, params, guards, lazy load) |
 | [Route Guards](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/AngularRouter.md>)   | ✅✅✅ (`canActivate`, `canLoad`, `resolve`)     |
 | [Nested Routes](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/NestedRoutes.md>)  | ✅✅✅ (children, auxiliary outlets, redirects)  |
-| Param Handling | ✅✅ (snapshot vs observable, query params)      |
+| [Param Handling](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/ParamHandling.md>) | ✅✅ (snapshot vs observable, query params)      |
 
 ---
 
