@@ -84,7 +84,7 @@
 
 | Tool / Configurazione | Dettagli                                                |
 | --------------------- | ------------------------------------------------------- |
-| Angular CLI           | ✅✅✅ (workspace config, env files, production builds) |
+| [Angular CLI](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Angular-CLI.md>)           | ✅✅✅ (workspace config, env files, production builds) |
 | Webpack Customization | ✅ (rare, ma utile in progetti avanzati)                |
 | Linting & Formatting  | ✅✅✅ (ESLint, Prettier, Husky, Commitlint)            |
 | Internationalization  | ✅✅ (i18n, ngx-translate, locale switching)            |
