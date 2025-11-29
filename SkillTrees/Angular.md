@@ -10,7 +10,7 @@
 | [Templates](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Templates.md>)     | ✅✅✅ (structural directives `*ngIf`, `*ngFor`, interpolation) |
 | [Modules](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Modules.md>)       | ✅✅✅ (feature modules, lazy load, shared module)              |
 | [Services & DI](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Services-and-DI.md>) | ✅✅✅ (provider scope, injectable services, hierarchical DI)   |
-| Pipes         | ✅✅✅ (built-in + custom, pure vs impure)                      |
+| [Pipes](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Pipes.md>)         | ✅✅✅ (built-in + custom, pure vs impure)                      |
 
 ---
 
