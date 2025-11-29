@@ -40,7 +40,7 @@
 
 | Tool / Pattern        | Dettagli                                                 |
 | --------------------- | -------------------------------------------------------- |
-| RxJS                  | ✅✅✅ (observables, subjects, operators, subscriptions) |
+| [RxJS](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/RxJS.md>)                  | ✅✅✅ (observables, subjects, operators, subscriptions) |
 | NgRx                  | ✅✅✅ (store, actions, reducers, effects, selectors)    |
 | Signals (Angular 17+) | ✅✅ (signal-based reactive UI, standalone without RxJS) |
 | Alternative Stores    | ✅✅ (Akita, NGXS, Zustand-style stores)                 |
