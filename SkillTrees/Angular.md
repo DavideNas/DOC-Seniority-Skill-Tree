@@ -95,7 +95,7 @@
 
 | Tool / Pattern       | Dettagli                                            |
 | -------------------- | --------------------------------------------------- |
-| Auth Guards          | ✅✅✅ (JWT + local storage, refresh flows, roles)  |
+| [Auth Guards](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/AuthGuards-and-JWT.md>)          | ✅✅✅ (JWT + local storage, refresh flows, roles)  |
 | OAuth / OIDC         | ✅✅ (Keycloak, Firebase Auth, Auth0)               |
 | Secure Data Binding  | ✅✅✅ (XSS prevention, sanitization, DOM security) |
 | CSRF / CORS Handling | ✅✅ (via backend + interceptors)                   |
