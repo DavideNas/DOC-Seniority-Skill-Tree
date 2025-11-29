@@ -93,7 +93,7 @@
 | Area                | Dettagli                                              |
 | ------------------- | ----------------------------------------------------- |
 | [Unit Testing](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/UnitTesting.md>)        | ✅✅✅ (xUnit, NUnit, MSTest)                         |
-| Mocking             | ✅✅✅ (Moq, AutoFixture, FakeItEasy)                 |
+| [Mocking](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Mocking.md>)             | ✅✅✅ (Moq, AutoFixture, FakeItEasy)                 |
 | Integration Testing | ✅✅ (WebApplicationFactory, TestServer)              |
 | Debugging Tools     | ✅✅✅ (Visual Studio debugger, breakpoints, Watches) |
 
