@@ -95,7 +95,7 @@
 | [Unit Testing](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/UnitTesting.md>)        | ✅✅✅ (xUnit, NUnit, MSTest)                         |
 | [Mocking](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Mocking.md>)             | ✅✅✅ (Moq, AutoFixture, FakeItEasy)                 |
 | [Integration Testing](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/IntegrationTesting.md>) | ✅✅ (WebApplicationFactory, TestServer)              |
-| Debugging Tools     | ✅✅✅ (Visual Studio debugger, breakpoints, Watches) |
+| [Debugging Tools](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/VisualStudio/DebuggingTools.md>)     | ✅✅✅ (Visual Studio debugger, breakpoints, Watches) |
 
 ---
 
