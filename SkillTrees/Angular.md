@@ -63,7 +63,7 @@
 | Tecnologie           | Dettagli                                                  |
 | -------------------- | --------------------------------------------------------- |
 | [CSS / SCSS](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Style/Css-and-Scss.md>)           | ✅✅✅ (modular CSS, encapsulation via ViewEncapsulation) |
-| Tailwind / Bootstrap | ✅✅ (utility-based or component-based styling)           |
+| [Tailwind / Bootstrap](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Style/Tailwind-and-Bootstrap.md>) | ✅✅ (utility-based or component-based styling)           |
 | Angular Material     | ✅✅✅ (MDC-based UI kit, accessibility included)         |
 | Design Systems       | ✅✅ (custom theme, layout components, tokens)            |
 
