@@ -88,11 +88,11 @@
 
 | Area                       | Dettagli                                        |
 | -------------------------- | ----------------------------------------------- |
-| Clean Architecture         | ✅✅✅ (layered, decoupled, testabile)          |
+| [Clean Architecture](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/CleanArchitecture.md>)         | ✅✅✅ (layered, decoupled, testabile)          |
 | DDD                        | ✅✅ (Aggregates, Entities, Value Objects)      |
 | CQRS + MediatR             | ✅✅ (Command / Query separation con MediatR)   |
 | Event Sourcing / Messaging | ✅✅ (MassTransit, Azure Service Bus, RabbitMQ) |
-| SOLID / DRY / KISS         | ✅✅✅ (fundamentals di un codice maintainable) |
+| [SOLID / DRY / KISS](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/SOLID-DRY-KISS.md>)         | ✅✅✅ (fundamentals di un codice maintainable) |
 
 ---
 
