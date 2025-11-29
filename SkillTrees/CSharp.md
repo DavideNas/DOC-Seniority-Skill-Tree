@@ -83,7 +83,7 @@
 | ------------------------ | --------------------------------------------- |
 | [Config Binding](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/ConfigBinding.md>)           | ✅✅✅ (appsettings.json, `IOptions<T>`)      |
 | [User Authentication](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/UserAuth-JWT-vs-Cookie.md>)      | ✅✅ (JWT, cookie-based, role-based access)   |
-| Secrets & Key Management | ✅✅ (`dotnet user-secrets`, Azure Key Vault) |
+| [Secrets & Key Management](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Azure/Secret-and-KeyManagements.md>) | ✅✅ (`dotnet user-secrets`, Azure Key Vault) |
 | [CORS, Rate Limiting](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/CORS-and-RateLimit.md>)      | ✅✅ (middleware e attributi)                 |
 
 ---
