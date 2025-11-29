@@ -73,7 +73,7 @@
 
 | Tool / Tecniche     | Dettagli                                       |
 | ------------------- | ---------------------------------------------- |
-| Unit Testing        | ✅✅✅ (Jasmine, Karma, TestBed, spies)        |
+| [Unit Testing](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/UnitTesting.md>)        | ✅✅✅ (Jasmine, Karma, TestBed, spies)        |
 | Component Testing   | ✅✅✅ (test inputs/outputs, DOM interactions) |
 | E2E Testing         | ✅✅ (Cypress, Playwright)                     |
 | Mocking & Isolation | ✅✅✅ (HttpTestingController, shallow tests)  |
