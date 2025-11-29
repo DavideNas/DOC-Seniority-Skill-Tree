@@ -54,7 +54,7 @@
 | [`HttpClient`](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/HttpClient.md>)    | ✅✅✅ (get/post/put/delete, headers, interceptors) |
 | [Interceptors](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Interceptors.md>)    | ✅✅✅ (auth token, error handler, retry logic)     |
 | [Error Handling](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/ErrorHandling.md>)  | ✅✅✅ (global handler, observable catch)           |
-| Caching & Retry | ✅✅ (RxJS shareReplay, retryWhen)                  |
+| [Caching & Retry](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Caching-and-Retry.md>) | ✅✅ (RxJS shareReplay, retryWhen)                  |
 
 ---
 
