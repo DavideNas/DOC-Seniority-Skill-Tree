@@ -8,7 +8,7 @@
 | ------------- | --------------------------------------------------------------- |
 | [Components](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Components.md>)    | ✅✅✅ (declarativi, lifecycle, change detection)               |
 | [Templates](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Templates.md>)     | ✅✅✅ (structural directives `*ngIf`, `*ngFor`, interpolation) |
-| Modules       | ✅✅✅ (feature modules, lazy load, shared module)              |
+| [Modules](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Modules.md>)       | ✅✅✅ (feature modules, lazy load, shared module)              |
 | Services & DI | ✅✅✅ (provider scope, injectable services, hierarchical DI)   |
 | Pipes         | ✅✅✅ (built-in + custom, pure vs impure)                      |
 
