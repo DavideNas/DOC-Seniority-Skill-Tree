@@ -104,7 +104,7 @@
 | MAUI              | ✅✅ (cross-platform mobile/desktop)  |
 | Roslyn            | ✅ (compilation-time code analysis)   |
 | GraphQL for .NET  | ✅ (alternative a REST)               |
-| Swagger / OpenAPI | ✅✅✅ (documentazione e testing API) |
+| [Swagger / OpenAPI](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/Swagger-OpenAPI.md>) | ✅✅✅ (documentazione e testing API) |
 
 ---
 
