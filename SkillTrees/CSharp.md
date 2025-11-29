@@ -70,7 +70,7 @@
 | Area                      | Dettagli                                                    |
 | ------------------------- | ----------------------------------------------------------- |
 | [REST API](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/REST.md>)                  | ✅✅✅ (`HttpGet`, `HttpPost`, routing, JSON serialization) |
-| Middleware & Filters      | ✅✅✅ (pipeline personalizzata, autorizzazioni)            |
+| [Middleware & Filters](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/Middleware-e-Filtri.md>)      | ✅✅✅ (pipeline personalizzata, autorizzazioni)            |
 | Dependency Injection      | ✅✅✅ (registrazione `AddScoped`, `AddSingleton`, etc.)    |
 | Entity Framework Core     | ✅✅✅ (DbContext, LINQ-to-SQL, Migrations, Fluent API)     |
 | Authentication & Identity | ✅✅ (JWT, ASP.NET Identity, OAuth)                         |
