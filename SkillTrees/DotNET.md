@@ -65,10 +65,10 @@
 
 | Area                          | Dettagli                                        |
 | ----------------------------- | ----------------------------------------------- |
-| Azure DevOps / GitHub Actions | ✅✅✅ (CI/CD pipelines per build/test/deploy)  |
-| Docker + .NET                 | ✅✅✅ (multi-stage Dockerfile, build AOT)      |
+| [Azure DevOps / GitHub Actions](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Azure/DevOps-and-GithubAction.md>) | ✅✅✅ (CI/CD pipelines per build/test/deploy)  |
+| [Docker + .NET](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Docker-per-.NET.md>)                 | ✅✅✅ (multi-stage Dockerfile, build AOT)      |
 | Kubernetes + Helm             | ✅✅ (deployment orchestrato, scaling, secrets) |
-| Azure App Service / Functions | ✅✅✅ (serverless, hosting, scalability)       |
+| [Azure App Service / Functions](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Azure/Azure-App-Service-and-Functions.md>) | ✅✅✅ (serverless, hosting, scalability)       |
 | Terraform / Bicep             | ✅ (IaC per risorse Azure)                      |
 
 ---
@@ -77,10 +77,10 @@
 
 | Area                 | Dettagli                                                |
 | -------------------- | ------------------------------------------------------- |
-| Serilog / NLog / Seq | ✅✅✅ (structured logging)                             |
-| Application Insights | ✅✅✅ (telemetria, performance tracing)                |
-| Health Checks        | ✅✅✅ (ASP.NET built-in, readiness/liveness)           |
-| OpenTelemetry        | ✅✅ (tracing distribuito, Jaeger/Zipkin compatibilità) |
+| [Serilog / NLog / Seq](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Serilog-NLog-Seq.md>) | ✅✅✅ (structured logging)                             |
+| [Application Insights](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Azure/ApplicationInsights.md>) | ✅✅✅ (telemetria, performance tracing)                |
+| [Health Checks](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/HealthChecks.md>)        | ✅✅✅ (ASP.NET built-in, readiness/liveness)           |
+| [OpenTelemetry](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/OpenTelemetry.md>)        | ✅✅ (tracing distribuito, Jaeger/Zipkin compatibilità) |
 
 ---
 
