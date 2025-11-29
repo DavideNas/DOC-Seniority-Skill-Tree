@@ -18,7 +18,7 @@
 
 | Area                   | Dettagli                                               |
 | ---------------------- | ------------------------------------------------------ |
-| Reactive Forms         | ✅✅✅ (FormGroup, FormControl, FormArray, Validators) |
+| [Reactive Forms](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/ReactiveForm.md>)         | ✅✅✅ (FormGroup, FormControl, FormArray, Validators) |
 | Template-driven Forms  | ✅✅ (ngModel, validation feedback)                    |
 | Custom Validators      | ✅✅✅ (synchronous + async, reusable)                 |
 | Error Display Patterns | ✅✅✅ (dirty/touched checks, error maps)              |
