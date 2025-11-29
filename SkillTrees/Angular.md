@@ -51,7 +51,7 @@
 
 | Tool / Pattern  | Dettagli                                            |
 | --------------- | --------------------------------------------------- |
-| `HttpClient`    | ✅✅✅ (get/post/put/delete, headers, interceptors) |
+| [`HttpClient`](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/HttpClient.md>)    | ✅✅✅ (get/post/put/delete, headers, interceptors) |
 | Interceptors    | ✅✅✅ (auth token, error handler, retry logic)     |
 | Error Handling  | ✅✅✅ (global handler, observable catch)           |
 | Caching & Retry | ✅✅ (RxJS shareReplay, retryWhen)                  |
