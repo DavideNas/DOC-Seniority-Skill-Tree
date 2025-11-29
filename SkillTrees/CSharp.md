@@ -129,7 +129,7 @@
 | Performance Profiling | ✅✅ (dotTrace, BenchmarkDotNet)            |
 | Memory Management     | ✅✅ (GC internals, WeakReference, Span<T>) |
 | Interoperabilità      | ✅ (P/Invoke, C++/CLI)                      |
-| SignalR               | ✅✅ (real-time WebSockets con .NET)        |
+| [SignalR](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/SignalR.md>)               | ✅✅ (real-time WebSockets con .NET)        |
 | Blazor                | ✅✅ (web frontend in C# full-stack)        |
 
 ---
