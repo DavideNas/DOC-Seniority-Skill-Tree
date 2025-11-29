@@ -18,11 +18,11 @@
 
 | Area                           | Dettagli                                              |
 | ------------------------------ | ----------------------------------------------------- |
-| Web API (REST)                 | ✅✅✅ (Minimal API, Controllers, Swagger)            |
-| SignalR                        | ✅✅ (real-time, WebSocket based)                     |
+| [Web API (REST)](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/WebAPI.md>)                 | ✅✅✅ (Minimal API, Controllers, Swagger)            |
+| [SignalR](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/SignalR.md>)                        | ✅✅ (real-time, WebSocket based)                     |
 | Blazor (WebAssembly/Server)    | ✅✅ (client/server-side C# rendering)                |
-| Middleware / Pipeline          | ✅✅✅ (custom middleware, filters, request handling) |
-| Authentication & Authorization | ✅✅✅ (JWT, Cookie, OAuth2, policy-based)            |
+| [Middleware / Pipeline](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/Middleware-e-Filtri.md>)          | ✅✅✅ (custom middleware, filters, request handling) |
+| [Authentication & Authorization](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/UserAuth-JWT-vs-Cookie.md>) | ✅✅✅ (JWT, Cookie, OAuth2, policy-based)            |
 
 ---
 
