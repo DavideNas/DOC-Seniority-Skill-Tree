@@ -69,7 +69,7 @@
 
 | Area                      | Dettagli                                                    |
 | ------------------------- | ----------------------------------------------------------- |
-| REST API                  | ✅✅✅ (`HttpGet`, `HttpPost`, routing, JSON serialization) |
+| [REST API](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/REST.md>)                  | ✅✅✅ (`HttpGet`, `HttpPost`, routing, JSON serialization) |
 | Middleware & Filters      | ✅✅✅ (pipeline personalizzata, autorizzazioni)            |
 | Dependency Injection      | ✅✅✅ (registrazione `AddScoped`, `AddSingleton`, etc.)    |
 | Entity Framework Core     | ✅✅✅ (DbContext, LINQ-to-SQL, Migrations, Fluent API)     |
