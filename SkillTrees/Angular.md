@@ -42,7 +42,7 @@
 | --------------------- | -------------------------------------------------------- |
 | [RxJS](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/RxJS.md>)                  | ✅✅✅ (observables, subjects, operators, subscriptions) |
 | [NgRx](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/NgRx.md>)                  | ✅✅✅ (store, actions, reducers, effects, selectors)    |
-| Signals (Angular 17+) | ✅✅ (signal-based reactive UI, standalone without RxJS) |
+| [Signals (Angular 17+)](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Signals.md>) | ✅✅ (signal-based reactive UI, standalone without RxJS) |
 | Alternative Stores    | ✅✅ (Akita, NGXS, Zustand-style stores)                 |
 
 ---
