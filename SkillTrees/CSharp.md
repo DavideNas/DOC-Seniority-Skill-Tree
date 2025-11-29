@@ -115,7 +115,7 @@
 | Area                      | Dettagli                                           |
 | ------------------------- | -------------------------------------------------- |
 | [Repository Pattern](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/RepositoryPattern.md>)        | ✅✅✅ (separazione persistenza/logica)            |
-| CQRS & MediatR            | ✅✅ (Command-Query separation, decoupling)        |
+| [CQRS & MediatR](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/CQRS-and-MediatR.md>)            | ✅✅ (Command-Query separation, decoupling)        |
 | Clean Architecture        | ✅✅✅ (domain-driven structure, layer separation) |
 | Microservizi & DDD        | ✅✅ (Bounded Context, DDD + API)                  |
 | Message Queue Integration | ✅✅ (RabbitMQ, Azure Service Bus)                 |
