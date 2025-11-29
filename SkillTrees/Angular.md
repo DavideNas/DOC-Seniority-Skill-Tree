@@ -120,7 +120,7 @@
 | [Code Review](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/CodeReview.md>)           | ✅✅✅ (diff awareness, refactor suggestions, readability) |
 | [Mentoring](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/Mentoring.md>)             | ✅✅ (junior onboarding, knowledge sharing)                |
 | [Architecture Decision](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/ArchitecturalDecision.md>) | ✅✅✅ (trade-off analysis, evolution of legacy)           |
-| CI/CD Awareness       | ✅✅✅ (build pipelines, staging, prod monitoring)         |
+| [CI/CD Awareness](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Angular/CI-CD-Awareness.md>)       | ✅✅✅ (build pipelines, staging, prod monitoring)         |
 
 ---
 
