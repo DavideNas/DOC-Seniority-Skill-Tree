@@ -104,7 +104,7 @@
 | Area            | Dettagli                                                              |
 | --------------- | --------------------------------------------------------------------- |
 | [CLI](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/CLI.md>)             | ✅✅✅ (`dotnet build`, `run`, `new`, `publish`, `ef`)                |
-| Docker per .NET | ✅✅ (containerizzazione di Web API o worker services)                |
+| [Docker per .NET](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Docker-per-.NET.md>) | ✅✅ (containerizzazione di Web API o worker services)                |
 | CI/CD           | ✅✅✅ (GitHub Actions, Azure DevOps Pipelines, Unit test automatici) |
 | Logging         | ✅✅✅ (`ILogger<T>`, Serilog, Seq, Elastic, AppInsights)             |
 
