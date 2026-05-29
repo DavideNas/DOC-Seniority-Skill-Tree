@@ -9,7 +9,7 @@
 - [Java](SkillTrees/Java.md) ☕
 - [PHP](SkillTrees/PHP.md) 🐘
 - [JavaScript](SkillTrees/Javascript.md) ⚡
-- [Rust]
+- [TypeScript](SkillTrees/TypeScript.md) 💠
 
 ---
 
@@ -52,6 +52,21 @@
 - [Microservices-Developer](SkillTrees/MicroservicesDev.md) 🏗️
 - [Design Patterns](SkillTrees/DesignPatterns.md) 📐
 - [Architectural Patterns](SkillTrees/ArchitecturalPatterns.md) 🏛️
+- [Cloud Patterns](SkillTrees/CloudPatterns.md)
+  - [Tools For Cloud Patterns](SkillTrees/ToolsForCloudPatterns.md)
+
+---
+
+### 📡 **Message Brokers**
+
+#### *Competenze per lavorare con sistemi di messaggistica, code e eventi distribuiti.*
+
+* [Kafka](SkillTrees/Kafka.md) 🟣
+* [RabbitMQ](SkillTrees/RabbitMQ.md) 🐇
+* [ActiveMQ](SkillTrees/ActiveMQ.md) 🔵
+* [IBMMQ](SkillTrees/IBMMQ.md) 🟤
+* [NATS](SkillTrees/NATS.md) 🟢
+* [Mosquitto](SkillTrees/Mosquitto.md) 🐱
 
 ---
 
@@ -59,10 +74,19 @@
 
 #### _Competenze per lavorare con infrastrutture cloud e servizi distribuiti._
 
-- [Cloud Engineer](SkillTrees/CloudEngineer.md) ☁️
-- [AWS](SkillTrees/AWS.md) 🔶
-- [GCP](SkillTrees/GCP.md) 🔴
-- [Azure](SkillTrees/Azure.md) 🔷
+* [Cloud Engineer](SkillTrees/CloudEngineer.md) ☁️
+* [AWS](SkillTrees/AWS.md) 🔶
+
+  * [AWSSQS](SkillTrees/AWSSQS.md) 📬
+  * [AmazonMQ](SkillTrees/AmazonMQ.md) 🟠
+* [GCP](SkillTrees/GCP.md) 🔴
+
+  * [GCPPubSub](SkillTrees/GCPPubSub.md) 📨
+* [Azure](SkillTrees/Azure.md) 🔷
+
+  * [AzureServiceBus](SkillTrees/AzureServiceBus.md) 📡
+  * [AzureEventHubs](SkillTrees/AzureEventHubs.md) 🌐
+  * [AzureEventGrid](SkillTrees/AzureEventGrid.md) ⚡
 
 ---
 
@@ -186,3 +210,4 @@
 
 - [Cryptography Expert](SkillTrees/CryptographyExpert.md) 🗝️ - Cybersecurity 🛡️
 - [Ransomware Expert](SkillTrees/RansomwareExpert.md) 💣 - Cybersecurity 🛡️
+a13c1c42238cbdd6147259f38620424376396b21

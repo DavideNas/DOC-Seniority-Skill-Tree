@@ -6,11 +6,11 @@
 
 | Area                 | Dettagli                                                    |
 | -------------------- | ----------------------------------------------------------- |
-| C# 11+               | ✅✅✅ (record types, pattern matching, nullable ref types) |
-| .NET 8               | ✅✅✅ (Minimal APIs, performance boost, native AOT)        |
-| LINQ & Lambda        | ✅✅✅ (indispensabile per lavorare su collection/queries)  |
-| Task / Async Await   | ✅✅✅ (concorrenza e async programming)                    |
-| Dependency Injection | ✅✅✅ (built-in container, scoped/transient/singleton)     |
+| [C# 11+](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/CSharp11.md>)               | ✅✅✅ (record types, pattern matching, nullable ref types) |
+| [.NET 8](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/DotNET8.md>)               | ✅✅✅ (Minimal APIs, performance boost, native AOT)        |
+| [LINQ & Lambda](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/LINQ-and-Lambda.md>)        | ✅✅✅ (indispensabile per lavorare su collection/queries)  |
+| [Task / Async Await](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Task-Async-Await.md>)   | ✅✅✅ (concorrenza e async programming)                    |
+| [Dependency Injection](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/DependencyInjection.md>) | ✅✅✅ (built-in container, scoped/transient/singleton)     |
 
 ---
 
@@ -18,11 +18,11 @@
 
 | Area                           | Dettagli                                              |
 | ------------------------------ | ----------------------------------------------------- |
-| Web API (REST)                 | ✅✅✅ (Minimal API, Controllers, Swagger)            |
-| SignalR                        | ✅✅ (real-time, WebSocket based)                     |
+| [Web API (REST)](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/WebAPI.md>)                 | ✅✅✅ (Minimal API, Controllers, Swagger)            |
+| [SignalR](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/SignalR.md>)                        | ✅✅ (real-time, WebSocket based)                     |
 | Blazor (WebAssembly/Server)    | ✅✅ (client/server-side C# rendering)                |
-| Middleware / Pipeline          | ✅✅✅ (custom middleware, filters, request handling) |
-| Authentication & Authorization | ✅✅✅ (JWT, Cookie, OAuth2, policy-based)            |
+| [Middleware / Pipeline](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/Middleware-e-Filtri.md>)          | ✅✅✅ (custom middleware, filters, request handling) |
+| [Authentication & Authorization](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/UserAuth-JWT-vs-Cookie.md>) | ✅✅✅ (JWT, Cookie, OAuth2, policy-based)            |
 
 ---
 
@@ -30,11 +30,11 @@
 
 | Area                  | Dettagli                                                |
 | --------------------- | ------------------------------------------------------- |
-| Entity Framework Core | ✅✅✅ (code-first, migrations, lazy loading, tracking) |
-| Dapper                | ✅✅ (micro ORM per query raw e performance)            |
+| [Entity Framework Core](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/EntityFrameworkCore.md>) | ✅✅✅ (code-first, migrations, lazy loading, tracking) |
+| [Dapper](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/Dapper-MicroORM.md>)                | ✅✅ (micro ORM per query raw e performance)            |
 | LINQ-to-SQL           | ✅ (non più mainstream, ma conoscerlo può servire)      |
-| Azure Cosmos DB SDK   | ✅ (se lavori NoSQL su Azure)                           |
-| SQL Server            | ✅✅✅ (Stored Proc, indexing, query tuning)            |
+| [Azure Cosmos DB SDK](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Azure/CosmosDB.md>)   | ✅ (se lavori NoSQL su Azure)                           |
+| [SQL Server](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/SQLServer.md>)            | ✅✅✅ (Stored Proc, indexing, query tuning)            |
 
 ---
 
@@ -42,9 +42,9 @@
 
 | Area                    | Dettagli                                         |
 | ----------------------- | ------------------------------------------------ |
-| xUnit / NUnit / MSTest  | ✅✅✅ (framework test unitari più diffusi)      |
-| Moq                     | ✅✅✅ (mocking delle dipendenze nei test)       |
-| FluentAssertions        | ✅✅✅ (assert semantiche e leggibili)           |
+| [xUnit / NUnit / MSTest](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/UnitTesting.md>)  | ✅✅✅ (framework test unitari più diffusi)      |
+| [Moq](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Mocking.md>)                     | ✅✅✅ (mocking delle dipendenze nei test)       |
+| [FluentAssertions](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/FluentAssertion.md>)        | ✅✅✅ (assert semantiche e leggibili)           |
 | Test REST / Integration | ✅✅ (test end-to-end su Web API)                |
 | Coverage & Analysis     | ✅✅✅ (coverlet, SonarQube, JetBrains dotCover) |
 
@@ -65,10 +65,10 @@
 
 | Area                          | Dettagli                                        |
 | ----------------------------- | ----------------------------------------------- |
-| Azure DevOps / GitHub Actions | ✅✅✅ (CI/CD pipelines per build/test/deploy)  |
-| Docker + .NET                 | ✅✅✅ (multi-stage Dockerfile, build AOT)      |
+| [Azure DevOps / GitHub Actions](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Azure/DevOps-and-GithubAction.md>) | ✅✅✅ (CI/CD pipelines per build/test/deploy)  |
+| [Docker + .NET](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Docker-per-.NET.md>)                 | ✅✅✅ (multi-stage Dockerfile, build AOT)      |
 | Kubernetes + Helm             | ✅✅ (deployment orchestrato, scaling, secrets) |
-| Azure App Service / Functions | ✅✅✅ (serverless, hosting, scalability)       |
+| [Azure App Service / Functions](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Azure/Azure-App-Service-and-Functions.md>) | ✅✅✅ (serverless, hosting, scalability)       |
 | Terraform / Bicep             | ✅ (IaC per risorse Azure)                      |
 
 ---
@@ -77,10 +77,10 @@
 
 | Area                 | Dettagli                                                |
 | -------------------- | ------------------------------------------------------- |
-| Serilog / NLog / Seq | ✅✅✅ (structured logging)                             |
-| Application Insights | ✅✅✅ (telemetria, performance tracing)                |
-| Health Checks        | ✅✅✅ (ASP.NET built-in, readiness/liveness)           |
-| OpenTelemetry        | ✅✅ (tracing distribuito, Jaeger/Zipkin compatibilità) |
+| [Serilog / NLog / Seq](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/Serilog-NLog-Seq.md>) | ✅✅✅ (structured logging)                             |
+| [Application Insights](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/Azure/ApplicationInsights.md>) | ✅✅✅ (telemetria, performance tracing)                |
+| [Health Checks](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/HealthChecks.md>)        | ✅✅✅ (ASP.NET built-in, readiness/liveness)           |
+| [OpenTelemetry](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/.NET/OpenTelemetry.md>)        | ✅✅ (tracing distribuito, Jaeger/Zipkin compatibilità) |
 
 ---
 
@@ -88,11 +88,11 @@
 
 | Area                       | Dettagli                                        |
 | -------------------------- | ----------------------------------------------- |
-| Clean Architecture         | ✅✅✅ (layered, decoupled, testabile)          |
+| [Clean Architecture](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/CleanArchitecture.md>)         | ✅✅✅ (layered, decoupled, testabile)          |
 | DDD                        | ✅✅ (Aggregates, Entities, Value Objects)      |
 | CQRS + MediatR             | ✅✅ (Command / Query separation con MediatR)   |
 | Event Sourcing / Messaging | ✅✅ (MassTransit, Azure Service Bus, RabbitMQ) |
-| SOLID / DRY / KISS         | ✅✅✅ (fundamentals di un codice maintainable) |
+| [SOLID / DRY / KISS](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/SOLID-DRY-KISS.md>)         | ✅✅✅ (fundamentals di un codice maintainable) |
 
 ---
 
@@ -104,7 +104,7 @@
 | MAUI              | ✅✅ (cross-platform mobile/desktop)  |
 | Roslyn            | ✅ (compilation-time code analysis)   |
 | GraphQL for .NET  | ✅ (alternative a REST)               |
-| Swagger / OpenAPI | ✅✅✅ (documentazione e testing API) |
+| [Swagger / OpenAPI](<https://github.com/DavideNas/Glossario-Tecnico/blob/main/ASP.NET/Swagger-OpenAPI.md>) | ✅✅✅ (documentazione e testing API) |
 
 ---
 
